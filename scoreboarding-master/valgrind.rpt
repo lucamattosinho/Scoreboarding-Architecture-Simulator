@@ -1,0 +1,808 @@
+==56680== Memcheck, a memory error detector
+==56680== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==56680== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==56680== Command: ./scoreboarding -p testes/fatorial.sb -m 800 -l 1
+==56680== Parent PID: 12690
+==56680== 
+==56680== Invalid read of size 4
+==56680==    at 0x10A50D: pegaMemoria (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x111001: inicializaStatusInstrucoes (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10A296: leituraArquivo (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10A91A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==  Address 0x4a99ee4 is 0 bytes after a block of size 3,204 alloc'd
+==56680==    at 0x484880F: malloc (vg_replace_malloc.c:431)
+==56680==    by 0x10A41F: inicializaMemoria (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x1098EE: leituraArquivo (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10A91A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x48E4B56: __vfprintf_internal (vfprintf-internal.c:1516)
+==56680==    by 0x48CE81E: printf (printf.c:33)
+==56680==    by 0x10A4C2: printMemoria (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10A2B9: leituraArquivo (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10A91A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Use of uninitialised value of size 8
+==56680==    at 0x48C833B: _itoa_word (_itoa.c:177)
+==56680==    by 0x48E3B3D: __vfprintf_internal (vfprintf-internal.c:1516)
+==56680==    by 0x48CE81E: printf (printf.c:33)
+==56680==    by 0x10A4C2: printMemoria (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10A2B9: leituraArquivo (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10A91A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x48C834C: _itoa_word (_itoa.c:177)
+==56680==    by 0x48E3B3D: __vfprintf_internal (vfprintf-internal.c:1516)
+==56680==    by 0x48CE81E: printf (printf.c:33)
+==56680==    by 0x10A4C2: printMemoria (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10A2B9: leituraArquivo (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10A91A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x48E4643: __vfprintf_internal (vfprintf-internal.c:1516)
+==56680==    by 0x48CE81E: printf (printf.c:33)
+==56680==    by 0x10A4C2: printMemoria (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10A2B9: leituraArquivo (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10A91A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x48E3C85: __vfprintf_internal (vfprintf-internal.c:1516)
+==56680==    by 0x48CE81E: printf (printf.c:33)
+==56680==    by 0x10A4C2: printMemoria (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10A2B9: leituraArquivo (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10A91A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DCA8: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DCFE: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DD23: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DD69: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DD8E: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DE00: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DE25: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DE6B: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DE90: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DF02: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DF27: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DF6D: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DF92: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10B3D2: executaInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10E03E: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10B3FE: executaInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10E03E: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1095A0: pegaBarramentoResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10E04A: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10E098: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10E0C1: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10ECB6: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10ED0C: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10ED31: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10ED77: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10ED9C: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10EE0B: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10EE30: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10EE76: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10EE9B: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10EF0A: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10EF2F: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10EF75: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10EF9A: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10B3D2: executaInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10F043: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10B3FE: executaInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10F043: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1095A0: pegaBarramentoResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10F04F: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10F094: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10F0BD: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10FCA9: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10FCDA: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10FD5D: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10FD82: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10FDC8: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10FDED: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10FE82: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10FEA7: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10FEED: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10FF12: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10FF81: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10FFA6: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10FFEC: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x110011: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x110071: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11009A: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1100CB: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1100F8: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x110129: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10D63E: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10D701: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10D72A: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10D814: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10D8D7: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10D900: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10D9EA: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DAAD: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DAD6: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DB00: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DB2D: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10DB5E: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10CE3D: leituraDeOperandos (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA70: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10D110: leituraDeOperandos (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA70: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10D37D: leituraDeOperandos (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA70: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1116E2: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1117B9: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1113E8: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x1118FA: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11142C: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x1118FA: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11146D: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x1118FA: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1113E8: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x111926: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11142C: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x111926: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11146D: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x111926: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x48E4B56: __vfprintf_internal (vfprintf-internal.c:1516)
+==56680==    by 0x48CE81E: printf (printf.c:33)
+==56680==    by 0x111A00: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Use of uninitialised value of size 8
+==56680==    at 0x48C833B: _itoa_word (_itoa.c:177)
+==56680==    by 0x48E3B3D: __vfprintf_internal (vfprintf-internal.c:1516)
+==56680==    by 0x48CE81E: printf (printf.c:33)
+==56680==    by 0x111A00: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x48C834C: _itoa_word (_itoa.c:177)
+==56680==    by 0x48E3B3D: __vfprintf_internal (vfprintf-internal.c:1516)
+==56680==    by 0x48CE81E: printf (printf.c:33)
+==56680==    by 0x111A00: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x48E4643: __vfprintf_internal (vfprintf-internal.c:1516)
+==56680==    by 0x48CE81E: printf (printf.c:33)
+==56680==    by 0x111A00: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x48E44FB: __vfprintf_internal (vfprintf-internal.c:1516)
+==56680==    by 0x48CE81E: printf (printf.c:33)
+==56680==    by 0x111A00: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x111A58: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x111B2F: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1113E8: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x111C70: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11142C: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x111C70: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11146D: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x111C70: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1113E8: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x111C9C: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11142C: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x111C9C: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11146D: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x111C9C: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x48E4B56: __vfprintf_internal (vfprintf-internal.c:1516)
+==56680==    by 0x48CE81E: printf (printf.c:33)
+==56680==    by 0x111D76: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Use of uninitialised value of size 8
+==56680==    at 0x48C833B: _itoa_word (_itoa.c:177)
+==56680==    by 0x48E3B3D: __vfprintf_internal (vfprintf-internal.c:1516)
+==56680==    by 0x48CE81E: printf (printf.c:33)
+==56680==    by 0x111D76: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x48C834C: _itoa_word (_itoa.c:177)
+==56680==    by 0x48E3B3D: __vfprintf_internal (vfprintf-internal.c:1516)
+==56680==    by 0x48CE81E: printf (printf.c:33)
+==56680==    by 0x111D76: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== 
+==56680== More than 100 errors detected.  Subsequent errors
+==56680== will still be recorded, but in less detail than before.
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x111DCE: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x111EA5: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1113E8: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x111FE6: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11142C: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x111FE6: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11146D: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x111FE6: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1113E8: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x112012: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11142C: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x112012: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11146D: encontraQ (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x112012: statusUFs (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AACC: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x113AE3: getUFdisponivel (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10BB9E: emiteInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA7A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x113A49: getUFdisponivel (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10BB9E: emiteInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA7A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10FE13: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11017F: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1101EE: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x110268: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1103C6: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1104B8: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x110527: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x110595: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x110667: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x110759: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1107C8: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x110836: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x110908: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10BC7A: emiteInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA7A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10E117: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10E186: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10E200: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10E2D2: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10E3C4: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10E433: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10E4A1: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10E573: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10E665: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10E6D4: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10E742: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10E8A0: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x111280: getIndiceInstrucaoLO (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10CE94: leituraDeOperandos (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA70: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x113A99: getUFdisponivel (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10BB9E: emiteInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA7A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11122D: getIndiceInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10C05A: emiteInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA7A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10B571: executaInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10F043: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1112F8: getIndiceInstrucaoEX (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10D6BF: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11122D: getIndiceInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10CA64: emiteInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA7A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11122D: getIndiceInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10CDB9: emiteInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA7A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x111370: getIndiceInstrucaoER (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10E5F2: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Use of uninitialised value of size 8
+==56680==    at 0x10E5FC: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Invalid write of size 4
+==56680==    at 0x10E5FC: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==  Address 0x4a9bfdc is 16 bytes after a block of size 28 alloc'd
+==56680==    at 0x484880F: malloc (vg_replace_malloc.c:431)
+==56680==    by 0x10AC7E: aumentaVetorForwarding (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AD50: buscaInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA84: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x111370: getIndiceInstrucaoER (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10E84D: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Use of uninitialised value of size 8
+==56680==    at 0x10E857: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Invalid write of size 4
+==56680==    at 0x10E857: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==  Address 0x4a9bfdc is 16 bytes after a block of size 28 alloc'd
+==56680==    at 0x484880F: malloc (vg_replace_malloc.c:431)
+==56680==    by 0x10AC7E: aumentaVetorForwarding (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AD50: buscaInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA84: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x111370: getIndiceInstrucaoER (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10EA6A: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x111280: getIndiceInstrucaoLO (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10D167: leituraDeOperandos (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA70: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x111280: getIndiceInstrucaoLO (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10D2F3: leituraDeOperandos (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA70: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x111280: getIndiceInstrucaoLO (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10D3D4: leituraDeOperandos (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA70: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10D3EF: leituraDeOperandos (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA70: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1112F8: getIndiceInstrucaoEX (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10D895: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x1112F8: getIndiceInstrucaoEX (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10DA6B: execucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA66: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10F113: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10F182: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10F1FC: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10F2CE: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10F3C0: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10F42F: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10F49D: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10F56F: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10F661: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10F6D0: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10F73E: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x10F89C: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x111370: getIndiceInstrucaoER (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10FA66: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x111370: getIndiceInstrucaoER (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x110B7C: escritaResultados (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA5C: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== Conditional jump or move depends on uninitialised value(s)
+==56680==    at 0x11122D: getIndiceInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10BC2E: emiteInstrucao (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680==    by 0x10AA7A: main (in /home/luca/Documents/update/scoreboarding-master/scoreboarding)
+==56680== 
+==56680== 
+==56680== HEAP SUMMARY:
+==56680==     in use at exit: 116 bytes in 1 blocks
+==56680==   total heap usage: 103 allocs, 102 frees, 38,480 bytes allocated
+==56680== 
+==56680== LEAK SUMMARY:
+==56680==    definitely lost: 0 bytes in 0 blocks
+==56680==    indirectly lost: 0 bytes in 0 blocks
+==56680==      possibly lost: 0 bytes in 0 blocks
+==56680==    still reachable: 116 bytes in 1 blocks
+==56680==         suppressed: 0 bytes in 0 blocks
+==56680== Reachable blocks (those to which a pointer was found) are not shown.
+==56680== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==56680== 
+==56680== Use --track-origins=yes to see where uninitialised values come from
+==56680== For lists of detected and suppressed errors, rerun with: -s
+==56680== ERROR SUMMARY: 54838 errors from 171 contexts (suppressed: 0 from 0)

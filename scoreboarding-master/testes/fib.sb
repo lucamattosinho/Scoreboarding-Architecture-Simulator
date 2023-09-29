@@ -1,0 +1,39 @@
+/*
+UF
+add: 2
+mul : 2
+inteiro :2
+INST
+add : 2
+addi:1
+sub:1
+subi:2 
+mul: 10
+div:4
+and:3
+or:2
+not:3
+blt:2
+bgt:4
+beq:5
+bne:6
+j:4
+lw:2
+sw:2
+*/
+. data
+#numero da sequencia a ser buscado
+31
+#marcador de fim
+1
+. text
+#resultado será gravado no registrador 31
+lw r1, 0(r0)    
+lw r2, 4(r0)            
+lw r4, 4(r0)
+subi r1, r1, 1         
+add r31, r3, r4  
+add r3, r4, r0        
+add r4, r31, r0
+bgt r1, r2, -20
+exit

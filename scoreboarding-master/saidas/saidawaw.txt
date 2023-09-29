@@ -1,0 +1,3615 @@
+
+Linha 3
+Número lido: 3
+4 
+Linha 4
+Número lido: 4
+8 
+Linha -20
+Número lido: -20
+12 
+Linha 450
+Número lido: 450
+16 
+Linha 211
+Número lido: 211
+20 001110  00000  00110  00000  00000000100
+001110  00000  00011  00000  00000000100
+001110  00000  00100  00000  00000001000
+001110  00000  00101  00000  00000001100
+001110  00000  00101  00000  00000010000
+000000  00110  00011  00011  00000000000
+000000  00100  00100  10111  00000000000
+000000  00011  00000  00101  00000000000
+000011  00011  10111  00000  00000000010
+000100  00100  00010  01010  00000000000
+000000  01011  00110  01010  00000000000
+000010  00010  00011  00101  00000000000
+000100  00100  00100  01010  00000000000
+000100  00100  00010  00101  00000000000
+010000  00000  00000  00000  00000000000
+entrou 400
+entrou 404
+entrou 408
+entrou 412
+entrou 416
+entrou 420
+entrou 424
+entrou 428
+entrou 432
+entrou 436
+entrou 440
+entrou 444
+entrou 448
+entrou 452
+Conteúdo da memória:
+Endereço 0: 3
+Endereço 1: 4
+Endereço 2: -20
+Endereço 3: 450
+Endereço 4: 211
+Endereço 5: 0
+Endereço 6: 0
+Endereço 7: 0
+Endereço 8: 0
+Endereço 9: 0
+Endereço 10: 0
+Endereço 11: 0
+Endereço 12: 0
+Endereço 13: 0
+Endereço 14: 0
+Endereço 15: 0
+Endereço 16: 0
+Endereço 17: 0
+Endereço 18: 0
+Endereço 19: 0
+Endereço 20: 0
+Endereço 21: 0
+Endereço 22: 0
+Endereço 23: 0
+Endereço 24: 0
+Endereço 25: 0
+Endereço 26: 0
+Endereço 27: 0
+Endereço 28: 0
+Endereço 29: 0
+Endereço 30: 0
+Endereço 31: 0
+Endereço 32: 0
+Endereço 33: 0
+Endereço 34: 0
+Endereço 35: 0
+Endereço 36: 0
+Endereço 37: 0
+Endereço 38: 0
+Endereço 39: 0
+Endereço 40: 0
+Endereço 41: 0
+Endereço 42: 0
+Endereço 43: 0
+Endereço 44: 0
+Endereço 45: 0
+Endereço 46: 0
+Endereço 47: 0
+Endereço 48: 0
+Endereço 49: 0
+Endereço 50: 0
+Endereço 51: 0
+Endereço 52: 0
+Endereço 53: 0
+Endereço 54: 0
+Endereço 55: 0
+Endereço 56: 0
+Endereço 57: 0
+Endereço 58: 0
+Endereço 59: 0
+Endereço 60: 0
+Endereço 61: 0
+Endereço 62: 0
+Endereço 63: 0
+Endereço 64: 0
+Endereço 65: 0
+Endereço 66: 0
+Endereço 67: 0
+Endereço 68: 0
+Endereço 69: 0
+Endereço 70: 0
+Endereço 71: 0
+Endereço 72: 0
+Endereço 73: 0
+Endereço 74: 0
+Endereço 75: 0
+Endereço 76: 0
+Endereço 77: 0
+Endereço 78: 0
+Endereço 79: 0
+Endereço 80: 0
+Endereço 81: 0
+Endereço 82: 0
+Endereço 83: 0
+Endereço 84: 0
+Endereço 85: 0
+Endereço 86: 0
+Endereço 87: 0
+Endereço 88: 0
+Endereço 89: 0
+Endereço 90: 0
+Endereço 91: 0
+Endereço 92: 0
+Endereço 93: 0
+Endereço 94: 0
+Endereço 95: 0
+Endereço 96: 0
+Endereço 97: 0
+Endereço 98: 0
+Endereço 99: 0
+Endereço 100: 939917316
+Endereço 101: 939720708
+Endereço 102: 939786248
+Endereço 103: 939851788
+Endereço 104: 939851792
+Endereço 105: 12785664
+Endereço 106: 8697856
+Endereço 107: 6301696
+Endereço 108: 209125378
+Endereço 109: 276975616
+Endereço 110: 23482368
+Endereço 111: 138618880
+Endereço 112: 277106688
+Endereço 113: 276965376
+Endereço 114: 1073741824
+Endereço 115: 0
+Endereço 116: 0
+Endereço 117: 0
+Endereço 118: 0
+Endereço 119: 0
+Endereço 120: 0
+Endereço 121: 0
+Endereço 122: 0
+Endereço 123: 0
+Endereço 124: 0
+Endereço 125: 0
+Endereço 126: 0
+Endereço 127: 0
+Endereço 128: 0
+Endereço 129: 0
+Endereço 130: 0
+Endereço 131: 0
+Endereço 132: 0
+Endereço 133: 0
+Endereço 134: 0
+Endereço 135: 0
+Endereço 136: 0
+Endereço 137: 0
+Endereço 138: 0
+Endereço 139: 0
+Endereço 140: 0
+Endereço 141: 0
+Endereço 142: 0
+Endereço 143: 0
+Endereço 144: 0
+Endereço 145: 0
+Endereço 146: 0
+Endereço 147: 0
+Endereço 148: 0
+Endereço 149: 0
+Endereço 150: 0
+Endereço 151: 0
+Endereço 152: 0
+Endereço 153: 0
+Endereço 154: 0
+Endereço 155: 0
+Endereço 156: 0
+Endereço 157: 0
+Endereço 158: 0
+Endereço 159: 0
+Endereço 160: 0
+Endereço 161: 0
+Endereço 162: 0
+Endereço 163: 0
+Endereço 164: 0
+Endereço 165: 0
+Endereço 166: 0
+Endereço 167: 0
+Endereço 168: 0
+Endereço 169: 0
+Endereço 170: 0
+Endereço 171: 0
+Endereço 172: 0
+Endereço 173: 0
+Endereço 174: 0
+Endereço 175: 0
+Endereço 176: 0
+Endereço 177: 0
+Endereço 178: 0
+Endereço 179: 0
+Endereço 180: 0
+Endereço 181: 0
+Endereço 182: 0
+Endereço 183: 0
+Endereço 184: 0
+Endereço 185: 0
+Endereço 186: 0
+Endereço 187: 0
+Endereço 188: 0
+Endereço 189: 0
+Endereço 190: 0
+Endereço 191: 0
+Endereço 192: 0
+Endereço 193: 0
+Endereço 194: 0
+Endereço 195: 0
+Endereço 196: 0
+Endereço 197: 0
+Endereço 198: 0
+Endereço 199: 0
+
+
+UFs - add: 3, mul: 2, int: 2
+
+Ciclos de clock necessarios
+para completar a execucao:
+add: 2, mul: 10, lw: 2
+div: 4, and: 3, addi: 1
+subi: 2, or: 2, not: 3
+bgt: 4, blt: 2, beq: 5
+bne: 6, j: 4, sw: 2, sub: 1
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 0		r4 = 0		r5 = 0		r6 = 0		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 1--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+Não houve emissão
+-------------BUSCA--------------
+
+OPCODE: 14001110  00000  00110  00000  00000000100
+
+BUSCOU: 939917316
+PC = 404
+IR = 939917316
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 0		r4 = 0		r5 = 0		r6 = 0		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 2--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 6
+INSTRUCAO: 001110  00000  00110  00000  00000000100
+
+-------------BUSCA--------------
+
+OPCODE: 14001110  00000  00011  00000  00000000100
+
+BUSCOU: 939720708
+PC = 408
+IR = 939720708
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             0             0             0             
+lw r3, 4(r0)             2             0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 0		r4 = 0		r5 = 0		r6 = 0		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 3--------
+Pressione enter para continuar
+
+
+CHECK fi = 6, fj = 4, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 0
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 1; rk: 1
+Vetor Forwarding: 0LEU 6 4 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 3
+INSTRUCAO: 001110  00000  00011  00000  00000000100
+
+-------------BUSCA--------------
+
+OPCODE: 14001110  00000  00100  00000  00000001000
+
+BUSCOU: 939786248
+PC = 412
+IR = 939786248
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             0             0             
+lw r3, 4(r0)             2             3             0             0             0             
+lw r4, 8(r0)             3             0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 0		r4 = 0		r5 = 0		r6 = 0		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 4--------
+Pressione enter para continuar
+
+
+CHECK fi = 6, fj = 4, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 3, fj = 4, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+INT0 FALTAM 1 CICLOS
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 1; rk: 1
+Vetor Forwarding: 0LEU 3 4 0
+----------------EMISSAO--------------
+
+REG DESTINO = 4
+INSTRUCAO: 001110  00000  00100  00000  00000001000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 412
+IR = 939786248
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             4             0             
+lw r3, 4(r0)             2             3             4             0             0             
+lw r4, 8(r0)             3             0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 0		r4 = 0		r5 = 0		r6 = 0		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 5--------
+Pressione enter para continuar
+
+
+CHECK fi = 6, fj = 4, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 3, fj = 4, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+INT0 FALTAM 0 CICLOS
+
+Entrou aqui
+OPCODE: 14, DESTINO: 6, FONTE1: 4, FONTE2: 0Linha 0: 402653188
+Linha 1: 0
+Linha 2: 0
+
+INT1 FALTAM 1 CICLOS
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 4
+INSTRUCAO: 001110  00000  00100  00000  00000001000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 412
+IR = 939786248
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             0             
+lw r3, 4(r0)             2             3             4             5             0             
+lw r4, 8(r0)             3             0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 0		r4 = 0		r5 = 0		r6 = 0		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 6--------
+Pressione enter para continuar
+
+
+CHECK fi = 6, fj = 4, fk = 0
+
+CHECK 1, 1, 1
+entra aqui no 57
+OPCODE: 14, DESTINO: 6, FONTE1: 4, FONTE2: 0
+PRECISA ENTRAR AQUI
+
+bits destino: 6
+
+ BINARIO ENVIADO PRA ESCRITA:000110  00000  00000  00000  00000000100
+
+
+CHECK fi = 3, fj = 4, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+INT1 FALTAM 0 CICLOS
+
+Entrou aqui
+OPCODE: 14, DESTINO: 3, FONTE1: 4, FONTE2: 0Linha 0: 201326596
+Linha 1: 0
+Linha 2: 0
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 4
+INSTRUCAO: 001110  00000  00100  00000  00000001000
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 412
+IR = 939786248
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             0             
+lw r4, 8(r0)             3             0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 0		r4 = 0		r5 = 0		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 7--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 3, fj = 4, fk = 0
+
+CHECK 1, 1, 1
+entra aqui no 57
+OPCODE: 14, DESTINO: 3, FONTE1: 4, FONTE2: 0
+PRECISA ENTRAR AQUI
+
+bits destino: 3
+
+ BINARIO ENVIADO PRA ESCRITA:000011  00000  00000  00000  00000000100
+
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 4
+INSTRUCAO: 001110  00000  00100  00000  00000001000
+
+-------------BUSCA--------------
+
+OPCODE: 14001110  00000  00101  00000  00000001100
+
+BUSCOU: 939851788
+PC = 416
+IR = 939851788
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             0             0             0             
+lw r5, 12(r0)            7             0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 4		r4 = 0		r5 = 0		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 8--------
+Pressione enter para continuar
+
+
+CHECK fi = 4, fj = 8, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 0
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 1; rk: 1
+Vetor Forwarding: 0LEU 4 8 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 5
+INSTRUCAO: 001110  00000  00101  00000  00000001100
+
+-------------BUSCA--------------
+
+OPCODE: 14001110  00000  00101  00000  00000010000
+
+BUSCOU: 939851792
+PC = 420
+IR = 939851792
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             0             0             
+lw r5, 12(r0)            7             8             0             0             0             
+lw r5, 16(r0)            8             0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 4		r4 = 0		r5 = 0		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 9--------
+Pressione enter para continuar
+
+
+CHECK fi = 4, fj = 8, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 5, fj = 12, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+INT0 FALTAM 1 CICLOS
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 1; rk: 1
+Vetor Forwarding: 0LEU 5 12 0
+----------------EMISSAO--------------
+
+REG DESTINO = 5
+INSTRUCAO: 001110  00000  00101  00000  00000010000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 420
+IR = 939851792
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             9             0             
+lw r5, 12(r0)            7             8             9             0             0             
+lw r5, 16(r0)            8             0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 4		r4 = 0		r5 = 0		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 10--------
+Pressione enter para continuar
+
+
+CHECK fi = 4, fj = 8, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 5, fj = 12, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+INT0 FALTAM 0 CICLOS
+
+Entrou aqui
+OPCODE: 14, DESTINO: 4, FONTE1: 8, FONTE2: 0Linha 0: 301989908
+Linha 1: 0
+Linha 2: 0
+
+INT1 FALTAM 1 CICLOS
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 5
+INSTRUCAO: 001110  00000  00101  00000  00000010000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 420
+IR = 939851792
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            0             
+lw r5, 12(r0)            7             8             9             10            0             
+lw r5, 16(r0)            8             0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 4		r4 = 0		r5 = 0		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 11--------
+Pressione enter para continuar
+
+
+CHECK fi = 4, fj = 8, fk = 0
+
+CHECK 1, 1, 1
+entra aqui no 57
+OPCODE: 14, DESTINO: 4, FONTE1: 8, FONTE2: 0
+PRECISA ENTRAR AQUI
+
+bits destino: 4
+
+ BINARIO ENVIADO PRA ESCRITA:000100  10000  00000  00000  00000010100
+
+
+CHECK fi = 5, fj = 12, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+INT1 FALTAM 0 CICLOS
+
+Entrou aqui
+OPCODE: 14, DESTINO: 5, FONTE1: 12, FONTE2: 0Linha 0: 335544770
+Linha 1: 0
+Linha 2: 0
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 5
+INSTRUCAO: 001110  00000  00101  00000  00000010000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 420
+IR = 939851792
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            0             
+lw r5, 16(r0)            8             0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 4		r4 = -20	r5 = 0		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 12--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 5, fj = 12, fk = 0
+
+CHECK 1, 1, 1
+entra aqui no 57
+OPCODE: 14, DESTINO: 5, FONTE1: 12, FONTE2: 0
+PRECISA ENTRAR AQUI
+
+bits destino: 5
+
+ BINARIO ENVIADO PRA ESCRITA:000101  00000  00000  00000  00111000010
+
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 5
+INSTRUCAO: 001110  00000  00101  00000  00000010000
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 420
+IR = 939851792
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 4		r4 = -20	r5 = 450		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 13--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 5
+INSTRUCAO: 001110  00000  00101  00000  00000010000
+
+-------------BUSCA--------------
+
+OPCODE: 0000000  00110  00011  00011  00000000000
+
+BUSCOU: 12785664
+PC = 424
+IR = 12785664
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            0             0             0             
+add r3, r6, r3           13            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 4		r4 = -20	r5 = 450		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 14--------
+Pressione enter para continuar
+
+
+CHECK fi = 5, fj = 16, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 0
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 1; rk: 1
+Vetor Forwarding: 0LEU 5 16 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 3
+INSTRUCAO: 000000  00110  00011  00011  00000000000
+
+-------------BUSCA--------------
+
+OPCODE: 0000000  00100  00100  10111  00000000000
+
+BUSCOU: 8697856
+PC = 428
+IR = 8697856
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            0             0             
+add r3, r6, r3           13            14            0             0             0             
+add r23, r4, r4          14            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 4		r4 = -20	r5 = 450		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 15--------
+Pressione enter para continuar
+
+
+CHECK fi = 5, fj = 16, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+INT0 FALTAM 1 CICLOS
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 1; rk: 1
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 23
+INSTRUCAO: 000000  00100  00100  10111  00000000000
+
+-------------BUSCA--------------
+
+OPCODE: 0000000  00011  00000  00101  00000000000
+
+BUSCOU: 6301696
+PC = 432
+IR = 6301696
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            15            0             
+add r3, r6, r3           13            14            15            0             0             
+add r23, r4, r4          14            15            0             0             0             
+add r5, r3, r0           15            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 4		r4 = -20	r5 = 450		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 16--------
+Pressione enter para continuar
+
+
+CHECK fi = 5, fj = 16, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+INT0 FALTAM 0 CICLOS
+
+Entrou aqui
+OPCODE: 14, DESTINO: 5, FONTE1: 16, FONTE2: 0Linha 0: 335544531
+Linha 1: 0
+Linha 2: 0
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 1; rk: 1
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 5
+INSTRUCAO: 000000  00011  00000  00101  00000000000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 432
+IR = 6301696
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            0             
+add r3, r6, r3           13            14            15            16            0             
+add r23, r4, r4          14            15            16            0             0             
+add r5, r3, r0           15            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 4		r4 = -20	r5 = 450		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 17--------
+Pressione enter para continuar
+
+
+CHECK fi = 5, fj = 16, fk = 0
+
+CHECK 1, 1, 1
+entra aqui no 57
+OPCODE: 14, DESTINO: 5, FONTE1: 16, FONTE2: 0
+PRECISA ENTRAR AQUI
+
+bits destino: 5
+
+ BINARIO ENVIADO PRA ESCRITA:000101  00000  00000  00000  00011010011
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+OPCODE: 0, DESTINO: 3, FONTE1: 6, FONTE2: 3Linha 0: 201326600
+Linha 1: 0
+Linha 2: 0
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 5
+INSTRUCAO: 000000  00011  00000  00101  00000000000
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 432
+IR = 6301696
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            0             
+add r23, r4, r4          14            15            16            17            0             
+add r5, r3, r0           15            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 4		r4 = -20	r5 = 211		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 18--------
+Pressione enter para continuar
+
+OPCODE: 0, DESTINO: 3, FONTE1: 6, FONTE2: 3
+
+bits destino: 3
+
+ BINARIO ENVIADO PRA ESCRITA:000011  00000  00000  00000  00000001000
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+OPCODE: 0, DESTINO: 23, FONTE1: 4, FONTE2: 4Linha 0: 1577058344
+Linha 1: 0
+Linha 2: 0
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 5
+INSTRUCAO: 000000  00011  00000  00101  00000000000
+
+-------------BUSCA--------------
+
+OPCODE: 3000011  00011  10111  00000  00000000010
+
+BUSCOU: 209125378
+PC = 436
+IR = 209125378
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            0             
+add r5, r3, r0           15            18            0             0             0             
+subi r23, r3, 2          18            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 211		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 0		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 19--------
+Pressione enter para continuar
+
+OPCODE: 0, DESTINO: 23, FONTE1: 4, FONTE2: 4
+
+bits destino: 23
+
+ BINARIO ENVIADO PRA ESCRITA:010111  10000  00000  00000  00000101000
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 0, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 0, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 1; rk: 1
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 23
+INSTRUCAO: 000011  00011  10111  00000  00000000010
+
+-------------BUSCA--------------
+
+OPCODE: 4000100  00100  00010  01010  00000000000
+
+BUSCOU: 276975616
+PC = 440
+IR = 276975616
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            0             0             
+subi r23, r3, 2          18            19            0             0             0             
+mul r10, r4, r2          19            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 211		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = -40	
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 20--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 1; rk: 1
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000100  00100  00010  01010  00000000000
+
+-------------BUSCA--------------
+
+OPCODE: 0000000  01011  00110  01010  00000000000
+
+BUSCOU: 23482368
+PC = 444
+IR = 23482368
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            20            0             
+subi r23, r3, 2          18            19            20            0             0             
+mul r10, r4, r2          19            20            0             0             0             
+add r10, r11, r6         20            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 211		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = -40	
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 21--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+OPCODE: 0, DESTINO: 5, FONTE1: 3, FONTE2: 0Linha 0: 335544328
+Linha 1: 0
+Linha 2: 0
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000000  01011  00110  01010  00000000000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 444
+IR = 23482368
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            0             
+subi r23, r3, 2          18            19            20            21            0             
+mul r10, r4, r2          19            20            21            0             0             
+add r10, r11, r6         20            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 211		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = -40	
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 22--------
+Pressione enter para continuar
+
+OPCODE: 0, DESTINO: 5, FONTE1: 3, FONTE2: 0
+
+bits destino: 5
+
+ BINARIO ENVIADO PRA ESCRITA:000101  00000  00000  00000  00000001000
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+OPCODE: 3, DESTINO: 23, FONTE1: 3, FONTE2: 2Linha 0: 1543503878
+Linha 1: 0
+Linha 2: 0
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000000  01011  00110  01010  00000000000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 444
+IR = 23482368
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            0             
+mul r10, r4, r2          19            20            21            22            0             
+add r10, r11, r6         20            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = -40	
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 23--------
+Pressione enter para continuar
+
+OPCODE: 3, DESTINO: 23, FONTE1: 3, FONTE2: 2
+
+bits destino: 23
+
+ BINARIO ENVIADO PRA ESCRITA:010111  00000  00000  00000  00000000110
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000000  01011  00110  01010  00000000000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 444
+IR = 23482368
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            23            0             
+add r10, r11, r6         20            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 24--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000000  01011  00110  01010  00000000000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 444
+IR = 23482368
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            24            0             
+add r10, r11, r6         20            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 25--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000000  01011  00110  01010  00000000000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 444
+IR = 23482368
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            25            0             
+add r10, r11, r6         20            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 26--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000000  01011  00110  01010  00000000000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 444
+IR = 23482368
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            26            0             
+add r10, r11, r6         20            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 27--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000000  01011  00110  01010  00000000000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 444
+IR = 23482368
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            27            0             
+add r10, r11, r6         20            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 28--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000000  01011  00110  01010  00000000000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 444
+IR = 23482368
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            28            0             
+add r10, r11, r6         20            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 29--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000000  01011  00110  01010  00000000000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 444
+IR = 23482368
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            29            0             
+add r10, r11, r6         20            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 30--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000000  01011  00110  01010  00000000000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 444
+IR = 23482368
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            30            0             
+add r10, r11, r6         20            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 31--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+OPCODE: 4, DESTINO: 10, FONTE1: 4, FONTE2: 2Linha 0: 671088640
+Linha 1: 0
+Linha 2: 0
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000000  01011  00110  01010  00000000000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 444
+IR = 23482368
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            0             
+add r10, r11, r6         20            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 32--------
+Pressione enter para continuar
+
+OPCODE: 4, DESTINO: 10, FONTE1: 4, FONTE2: 2
+
+bits destino: 10
+
+ BINARIO ENVIADO PRA ESCRITA:001010  00000  00000  00000  00000000000
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000000  01011  00110  01010  00000000000
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 444
+IR = 23482368
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 33--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000000  01011  00110  01010  00000000000
+
+-------------BUSCA--------------
+
+OPCODE: 2000010  00010  00011  00101  00000000000
+
+BUSCOU: 138618880
+PC = 448
+IR = 138618880
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            0             0             0             
+sub r5, r2, r3           33            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 34--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 1; rk: 1
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 5
+INSTRUCAO: 000010  00010  00011  00101  00000000000
+
+-------------BUSCA--------------
+
+OPCODE: 4000100  00100  00100  01010  00000000000
+
+BUSCOU: 277106688
+PC = 452
+IR = 277106688
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            0             0             
+sub r5, r2, r3           33            34            0             0             0             
+mul r10, r4, r4          34            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 35--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 1; rk: 1
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000100  00100  00100  01010  00000000000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 452
+IR = 277106688
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            35            0             
+sub r5, r2, r3           33            34            35            0             0             
+mul r10, r4, r4          34            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 36--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+OPCODE: 0, DESTINO: 10, FONTE1: 11, FONTE2: 6Linha 0: 671088644
+Linha 1: 0
+Linha 2: 0
+
+OPCODE: 2, DESTINO: 5, FONTE1: 2, FONTE2: 3Linha 0: 671088644
+Linha 1: 369098760
+Linha 2: 0
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000100  00100  00100  01010  00000000000
+
+NAO FOI POSSIVEL EMITIR A INSTRUCAO
+
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 452
+IR = 277106688
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            0             
+sub r5, r2, r3           33            34            35            36            0             
+mul r10, r4, r4          34            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 8		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 0		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 37--------
+Pressione enter para continuar
+
+OPCODE: 0, DESTINO: 10, FONTE1: 11, FONTE2: 6
+
+bits destino: 10
+
+ BINARIO ENVIADO PRA ESCRITA:001010  00000  00000  00000  00000000100
+
+OPCODE: 2, DESTINO: 5, FONTE1: 2, FONTE2: 3
+
+bits destino: 5
+
+ BINARIO ENVIADO PRA ESCRITA:000101  10000  00000  00000  00000001000
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000100  00100  00100  01010  00000000000
+
+-------------BUSCA--------------
+
+ESTA EM STALL
+PC = 452
+IR = 277106688
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = -8	r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 4		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 38--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 10
+INSTRUCAO: 000100  00100  00100  01010  00000000000
+
+-------------BUSCA--------------
+
+OPCODE: 4000100  00100  00010  00101  00000000000
+
+BUSCOU: 276965376
+PC = 456
+IR = 276965376
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            38            0             0             0             
+mul r5, r4, r2           38            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = -8	r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 4		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 39--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+REG DESTINO = 5
+INSTRUCAO: 000100  00100  00010  00101  00000000000
+
+-------------BUSCA--------------
+
+OPCODE: 16010000  00000  00000  00000  00000000000
+
+PC = 456
+IR = 1073741824
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            38            39            0             0             
+mul r5, r4, r2           38            39            0             0             0             
+exit                     39            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = -8	r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 4		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 40--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+Não houve emissão
+-------------BUSCA--------------
+
+PC = 456
+IR = 1073741824
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            38            39            40            0             
+mul r5, r4, r2           38            39            40            0             0             
+exit                     39            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = -8	r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 4		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 41--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+Não houve emissão
+-------------BUSCA--------------
+
+PC = 456
+IR = 1073741824
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            38            39            41            0             
+mul r5, r4, r2           38            39            40            41            0             
+exit                     39            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = -8	r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 4		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 42--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+Não houve emissão
+-------------BUSCA--------------
+
+PC = 456
+IR = 1073741824
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            38            39            42            0             
+mul r5, r4, r2           38            39            40            42            0             
+exit                     39            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = -8	r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 4		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 43--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+Não houve emissão
+-------------BUSCA--------------
+
+PC = 456
+IR = 1073741824
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            38            39            43            0             
+mul r5, r4, r2           38            39            40            43            0             
+exit                     39            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = -8	r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 4		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 44--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+Não houve emissão
+-------------BUSCA--------------
+
+PC = 456
+IR = 1073741824
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            38            39            44            0             
+mul r5, r4, r2           38            39            40            44            0             
+exit                     39            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = -8	r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 4		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 45--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+Não houve emissão
+-------------BUSCA--------------
+
+PC = 456
+IR = 1073741824
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            38            39            45            0             
+mul r5, r4, r2           38            39            40            45            0             
+exit                     39            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = -8	r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 4		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 46--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+Não houve emissão
+-------------BUSCA--------------
+
+PC = 456
+IR = 1073741824
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            38            39            46            0             
+mul r5, r4, r2           38            39            40            46            0             
+exit                     39            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = -8	r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 4		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 47--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+Não houve emissão
+-------------BUSCA--------------
+
+PC = 456
+IR = 1073741824
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            38            39            47            0             
+mul r5, r4, r2           38            39            40            47            0             
+exit                     39            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = -8	r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 4		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 48--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+Não houve emissão
+-------------BUSCA--------------
+
+PC = 456
+IR = 1073741824
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            38            39            48            0             
+mul r5, r4, r2           38            39            40            48            0             
+exit                     39            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = -8	r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 4		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 49--------
+Pressione enter para continuar
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+OPCODE: 4, DESTINO: 10, FONTE1: 4, FONTE2: 4Linha 0: 671089040
+Linha 1: 0
+Linha 2: 0
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+Não houve emissão
+-------------BUSCA--------------
+
+PC = 456
+IR = 1073741824
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            38            39            49            0             
+mul r5, r4, r2           38            39            40            49            0             
+exit                     39            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = -8	r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 4		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 50--------
+Pressione enter para continuar
+
+OPCODE: 4, DESTINO: 10, FONTE1: 4, FONTE2: 4
+
+bits destino: 10
+
+ BINARIO ENVIADO PRA ESCRITA:001010  00000  00000  00000  00110010000
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+OPCODE: 4, DESTINO: 5, FONTE1: 4, FONTE2: 2Linha 0: 335544320
+Linha 1: 0
+Linha 2: 0
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+Não houve emissão
+-------------BUSCA--------------
+
+PC = 456
+IR = 1073741824
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            38            39            49            50            
+mul r5, r4, r2           38            39            40            50            0             
+exit                     39            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = -8	r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 400		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+--------CICLO 51--------
+Pressione enter para continuar
+
+OPCODE: 4, DESTINO: 5, FONTE1: 4, FONTE2: 2
+
+bits destino: 5
+
+ BINARIO ENVIADO PRA ESCRITA:000101  00000  00000  00000  00000000000
+
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+
+CHECK fi = 0, fj = 0, fk = 0
+
+CHECK 1, 1, 1
+----------EXECUCAO-----------
+
+-------------------LEITURA OPS------------------
+
+VetForw de I6: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+ADD rj: 0; rk: 0
+
+rj: 0; rk: 0
+
+rj: 0; rk: 0
+----------------EMISSAO--------------
+
+Não houve emissão
+-------------BUSCA--------------
+
+PC = 456
+IR = 1073741824
+
+Instrucao                Busca         Emissao       Leitura_OP    Execucao      Escrita       
+
+lw r6, 4(r0)             1             2             3             5             6             
+lw r3, 4(r0)             2             3             4             6             7             
+lw r4, 8(r0)             3             7             8             10            11            
+lw r5, 12(r0)            7             8             9             11            12            
+lw r5, 16(r0)            8             13            14            16            17            
+add r3, r6, r3           13            14            15            17            18            
+add r23, r4, r4          14            15            16            18            19            
+add r5, r3, r0           15            18            19            21            22            
+subi r23, r3, 2          18            19            20            22            23            
+mul r10, r4, r2          19            20            21            31            32            
+add r10, r11, r6         20            33            34            36            37            
+sub r5, r2, r3           33            34            35            36            37            
+mul r10, r4, r4          34            38            39            49            50            
+mul r5, r4, r2           38            39            40            50            51            
+exit                     39            0             0             0             0             
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 0		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 400		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+
+
+FIM DO PROGRAMA
+
+
+REGISTRADORES:
+r0 = 0		r1 = 0		r2 = 0		r3 = 8		r4 = -20	r5 = 0		r6 = 4		r7 = 0		
+r8 = 0		r9 = 0		r10 = 400		r11 = 0		r12 = 0		r13 = 0		r14 = 0		r15 = 0		
+r16 = 0		r17 = 0		r18 = 0		r19 = 0		r20 = 0		r21 = 0		r22 = 0		r23 = 6		
+r24 = 0		r25 = 0		r26 = 0		r27 = 0		r28 = 0		r29 = 0		r30 = 0		r31 = 0		
+Conteúdo da memória:
+Endereço 0: 3
+Endereço 1: 4
+Endereço 2: -20
+Endereço 3: 450
+Endereço 4: 211
+Endereço 5: 0
+Endereço 6: 0
+Endereço 7: 0
+Endereço 8: 0
+Endereço 9: 0
+Endereço 10: 0
+Endereço 11: 0
+Endereço 12: 0
+Endereço 13: 0
+Endereço 14: 0
+Endereço 15: 0
+Endereço 16: 0
+Endereço 17: 0
+Endereço 18: 0
+Endereço 19: 0
+Endereço 20: 0
+Endereço 21: 0
+Endereço 22: 0
+Endereço 23: 0
+Endereço 24: 0
+Endereço 25: 0
+Endereço 26: 0
+Endereço 27: 0
+Endereço 28: 0
+Endereço 29: 0
+Endereço 30: 0
+Endereço 31: 0
+Endereço 32: 0
+Endereço 33: 0
+Endereço 34: 0
+Endereço 35: 0
+Endereço 36: 0
+Endereço 37: 0
+Endereço 38: 0
+Endereço 39: 0
+Endereço 40: 0
+Endereço 41: 0
+Endereço 42: 0
+Endereço 43: 0
+Endereço 44: 0
+Endereço 45: 0
+Endereço 46: 0
+Endereço 47: 0
+Endereço 48: 0
+Endereço 49: 0
+Endereço 50: 0
+Endereço 51: 0
+Endereço 52: 0
+Endereço 53: 0
+Endereço 54: 0
+Endereço 55: 0
+Endereço 56: 0
+Endereço 57: 0
+Endereço 58: 0
+Endereço 59: 0
+Endereço 60: 0
+Endereço 61: 0
+Endereço 62: 0
+Endereço 63: 0
+Endereço 64: 0
+Endereço 65: 0
+Endereço 66: 0
+Endereço 67: 0
+Endereço 68: 0
+Endereço 69: 0
+Endereço 70: 0
+Endereço 71: 0
+Endereço 72: 0
+Endereço 73: 0
+Endereço 74: 0
+Endereço 75: 0
+Endereço 76: 0
+Endereço 77: 0
+Endereço 78: 0
+Endereço 79: 0
+Endereço 80: 0
+Endereço 81: 0
+Endereço 82: 0
+Endereço 83: 0
+Endereço 84: 0
+Endereço 85: 0
+Endereço 86: 0
+Endereço 87: 0
+Endereço 88: 0
+Endereço 89: 0
+Endereço 90: 0
+Endereço 91: 0
+Endereço 92: 0
+Endereço 93: 0
+Endereço 94: 0
+Endereço 95: 0
+Endereço 96: 0
+Endereço 97: 0
+Endereço 98: 0
+Endereço 99: 0
+Endereço 100: 939917316
+Endereço 101: 939720708
+Endereço 102: 939786248
+Endereço 103: 939851788
+Endereço 104: 939851792
+Endereço 105: 12785664
+Endereço 106: 8697856
+Endereço 107: 6301696
+Endereço 108: 209125378
+Endereço 109: 276975616
+Endereço 110: 23482368
+Endereço 111: 138618880
+Endereço 112: 277106688
+Endereço 113: 276965376
+Endereço 114: 1073741824
+Endereço 115: 0
+Endereço 116: 0
+Endereço 117: 0
+Endereço 118: 0
+Endereço 119: 0
+Endereço 120: 0
+Endereço 121: 0
+Endereço 122: 0
+Endereço 123: 0
+Endereço 124: 0
+Endereço 125: 0
+Endereço 126: 0
+Endereço 127: 0
+Endereço 128: 0
+Endereço 129: 0
+Endereço 130: 0
+Endereço 131: 0
+Endereço 132: 0
+Endereço 133: 0
+Endereço 134: 0
+Endereço 135: 0
+Endereço 136: 0
+Endereço 137: 0
+Endereço 138: 0
+Endereço 139: 0
+Endereço 140: 0
+Endereço 141: 0
+Endereço 142: 0
+Endereço 143: 0
+Endereço 144: 0
+Endereço 145: 0
+Endereço 146: 0
+Endereço 147: 0
+Endereço 148: 0
+Endereço 149: 0
+Endereço 150: 0
+Endereço 151: 0
+Endereço 152: 0
+Endereço 153: 0
+Endereço 154: 0
+Endereço 155: 0
+Endereço 156: 0
+Endereço 157: 0
+Endereço 158: 0
+Endereço 159: 0
+Endereço 160: 0
+Endereço 161: 0
+Endereço 162: 0
+Endereço 163: 0
+Endereço 164: 0
+Endereço 165: 0
+Endereço 166: 0
+Endereço 167: 0
+Endereço 168: 0
+Endereço 169: 0
+Endereço 170: 0
+Endereço 171: 0
+Endereço 172: 0
+Endereço 173: 0
+Endereço 174: 0
+Endereço 175: 0
+Endereço 176: 0
+Endereço 177: 0
+Endereço 178: 0
+Endereço 179: 0
+Endereço 180: 0
+Endereço 181: 0
+Endereço 182: 0
+Endereço 183: 0
+Endereço 184: 0
+Endereço 185: 0
+Endereço 186: 0
+Endereço 187: 0
+Endereço 188: 0
+Endereço 189: 0
+Endereço 190: 0
+Endereço 191: 0
+Endereço 192: 0
+Endereço 193: 0
+Endereço 194: 0
+Endereço 195: 0
+Endereço 196: 0
+Endereço 197: 0
+Endereço 198: 0
+Endereço 199: 0
