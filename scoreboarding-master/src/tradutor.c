@@ -281,11 +281,8 @@ int instrucaoParaBinario(char *buffer){
 		}	
         imm = abs(imm) << 0;
         inst = inst | imm;
-        //printf("%u\n",inst);
-        printBinario(inst);
     }
-    printBinario(inst);
-    //printf("%u\n",inst);
+ 
     return inst;
 }
 

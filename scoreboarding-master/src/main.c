@@ -15,8 +15,6 @@ int ciclosParaExecutar[16];
 int clocki;
 int stalled;
 int qtdeAdd, qtdeInt, qtdeMul;
-int addCiclos, mulCiclos, lwCiclos, subCiclos, divCiclos, swCiclos, bgtCiclos, jCiclos;
-int addiCiclos, subiCiclos, andCiclos, orCiclos, notCiclos, bltCiclos, beqCiclos, bneCiclos;
 
 int getValor(const char *linha) { // Função que separa os valores relacionados às quantidades de UFs e ciclos
     char *separador = strstr(linha, ":");
@@ -31,12 +29,10 @@ int getValor(const char *linha) { // Função que separa os valores relacionados
 void getValoresDados(char *linha){
 	int numero;
 	char *ptr = linha;
-	printf("\nLinha %s", linha);
 	while (*ptr != '\0'){
         if(isdigit(*ptr) || (*ptr == '-' && isdigit(*(ptr + 1)))){
             // Se o caractere atual for um dígito, construa o número
             sscanf(ptr, "%d", &numero);
-            printf("Número lido: %d\n", numero);
 			insereMemoria(numero);
             // Encontre o próximo espaço em branco ou o final da linha
             while (isdigit(*ptr) || (*ptr == '-' && isdigit(*(ptr + 1))))
@@ -77,7 +73,6 @@ int leituraArquivo(char * file, int memsize, char* output, int largura){
     
 	while(fgets(buffer, sizeof(buffer), arquivo)){
 		int contadorlinha = 0;
-		//printf("\n%s", buffer);
 		if((strcmp(buffer, "\r\n")==0) || (strcmp(buffer, "\n")==0) || (strcmp(buffer, "\0")==0)){
 			continue;
 		}
@@ -86,7 +81,7 @@ int leituraArquivo(char * file, int memsize, char* output, int largura){
 				contadorlinha++;
 			}
 			if(buffer[contadorlinha] == '#'){ // Indica que a linha é um comentário
-				printf("\nComentário");
+				//printf("\nComentário");
 			}
 			else{ // Utilizamos flags para indicar do que se trata a linha que será lida
 				if (strcmp(buffer, "UF\n") == 0) { // Verifica se a linha contém a palavra-chave "UF"
@@ -111,8 +106,8 @@ int leituraArquivo(char * file, int memsize, char* output, int largura){
 						if (strstr(buffer, "addi")){
 							valor = getValor(buffer);
 							if (categoria == INST){
-								addiCiclos = valor; //QUANTIDADE DE CICLOS DA ADDI
-								ciclosParaExecutar[1]=addiCiclos;
+								//QUANTIDADE DE CICLOS DA ADDI
+								ciclosParaExecutar[1]=valor;
 							}
 						}
 						else if (strstr(buffer, "add")){
@@ -121,8 +116,8 @@ int leituraArquivo(char * file, int memsize, char* output, int largura){
 								qtdeAdd = valor; //QUANTIDADE DE UF ADD
 							}
 							else if (categoria == INST){
-								addCiclos = valor; //QUANTIDADE DE CICLOS DA ADD
-								ciclosParaExecutar[0]=addCiclos;
+								//QUANTIDADE DE CICLOS DA ADD
+								ciclosParaExecutar[0]=valor;
 							}
 						} 
 						else if (strstr(buffer, "mul")) {
@@ -131,8 +126,8 @@ int leituraArquivo(char * file, int memsize, char* output, int largura){
 								qtdeMul = valor; //QUANTIDADE DE UF MUL
 							}
 							else if (categoria == INST){
-								mulCiclos = valor; //QUANTIDADE DE CICLOS DA MUL
-								ciclosParaExecutar[4]=mulCiclos;
+								//QUANTIDADE DE CICLOS DA MUL
+								ciclosParaExecutar[4]=valor;
 							}
 						} 
 						else if (strstr(buffer, "inteiro")) {
@@ -144,97 +139,96 @@ int leituraArquivo(char * file, int memsize, char* output, int largura){
 						else if (strstr(buffer, "div")) {
 							valor = getValor(buffer);
 							if (categoria == INST){
-								divCiclos = valor; //QUANTIDADE DE CICLOS DA DIV
-								ciclosParaExecutar[5]=mulCiclos;
+								//QUANTIDADE DE CICLOS DA DIV
+								ciclosParaExecutar[5]=valor;
 							}
 						}
 						else if (strstr(buffer, "subi")) {
 							valor = getValor(buffer);
 							if (categoria == INST){
-								subiCiclos = valor; //QUANTIDADE DE CICLOS DA SUBI
-								ciclosParaExecutar[3]=subiCiclos;
+								//QUANTIDADE DE CICLOS DA SUBI
+								ciclosParaExecutar[3]=valor;
 							}
 						}
 						else if (strstr(buffer, "sub")) {
 							valor = getValor(buffer);
 							if (categoria == INST){
-								subCiclos = valor; //QUANTIDADE DE CICLOS DA SUB
-								ciclosParaExecutar[2]=subCiclos;
+								//QUANTIDADE DE CICLOS DA SUB
+								ciclosParaExecutar[2]=valor;
 							}
 						}
 						else if (strstr(buffer, "lw")) {
 							valor = getValor(buffer);
 							if (categoria == INST){
-								lwCiclos = valor; //QUANTIDADE DE CICLOS DA LW
-								ciclosParaExecutar[14]=lwCiclos;
+								//QUANTIDADE DE CICLOS DA LW
+								ciclosParaExecutar[14]=valor;
 							}
 						}
 						else if (strstr(buffer, "sw")) {
 							valor = getValor(buffer);
 							if (categoria == INST){
-								swCiclos = valor; //QUANTIDADE DE CICLOS DA SW
-								ciclosParaExecutar[15]=swCiclos;
+								//QUANTIDADE DE CICLOS DA SW
+								ciclosParaExecutar[15]=valor;
 							}
 						}
 						else if (strstr(buffer, "beq")) {
 							valor = getValor(buffer);
 							if (categoria == INST){
-								beqCiclos = valor; //QUANTIDADE DE CICLOS DA BEQ
-								ciclosParaExecutar[11]=beqCiclos;
+								//QUANTIDADE DE CICLOS DA BEQ
+								ciclosParaExecutar[11]=valor;
 							}
 						}
 						else if (strstr(buffer, "bne")) {
 							valor = getValor(buffer);
 							if (categoria == INST){
-								bneCiclos = valor; //QUANTIDADE DE CICLOS DA BNE
-								ciclosParaExecutar[12]=bneCiclos;
+								//QUANTIDADE DE CICLOS DA BNE
+								ciclosParaExecutar[12]=valor;
 							}
 						}
 						else if (strstr(buffer, "blt")) {
 							valor = getValor(buffer);
 							if (categoria == INST){
-								bltCiclos = valor; //QUANTIDADE DE CICLOS DA BLT
-								ciclosParaExecutar[9]=bltCiclos;
+								//QUANTIDADE DE CICLOS DA BLT
+								ciclosParaExecutar[9]=valor;
 							}
 						}
 						else if (strstr(buffer, "bgt")) {
 							valor = getValor(buffer);
 							if (categoria == INST){
-								bgtCiclos = valor; //QUANTIDADE DE CICLOS DA BGT
-								ciclosParaExecutar[10]=bgtCiclos;
+								//QUANTIDADE DE CICLOS DA BGT
+								ciclosParaExecutar[10]=valor;
 							}
 						}
 						else if (strstr(buffer, "j")) {
 							valor = getValor(buffer);
 							if (categoria == INST){
-								jCiclos = valor; //QUANTIDADE DE CICLOS DA J
-								ciclosParaExecutar[13]=jCiclos;
+								//QUANTIDADE DE CICLOS DA J
+								ciclosParaExecutar[13]=valor;
 							}
 						}
 						else if (strstr(buffer, "and")) {
 							valor = getValor(buffer);
 							if (categoria == INST){
-								andCiclos = valor; //QUANTIDADE DE CICLOS DA AND
-								ciclosParaExecutar[6]=andCiclos;
+								//QUANTIDADE DE CICLOS DA AND
+								ciclosParaExecutar[6]=valor;
 							}
 						}
 						else if (strstr(buffer, "or")) {
 							valor = getValor(buffer);
 							if (categoria == INST){
-								orCiclos = valor; //QUANTIDADE DE CICLOS DA OR
-								ciclosParaExecutar[7]=orCiclos;
+								//QUANTIDADE DE CICLOS DA OR
+								ciclosParaExecutar[7]=valor;
 							}
 						}
 						else if (strstr(buffer, "not")) {
 							valor = getValor(buffer);
 							if (categoria == INST){
-								notCiclos = valor; //QUANTIDADE DE CICLOS DA NOT
-								ciclosParaExecutar[8]=notCiclos;
+								//QUANTIDADE DE CICLOS DA NOT
+								ciclosParaExecutar[8]=valor;
 							}
 						}
 					}
 					else if (categoria == DADOS){ // Carrega o que tem abaixo de ".data" para a memória						
-						//dado = atoi(buffer);
 						getValoresDados(buffer);
 					}
 					else{
@@ -259,24 +253,11 @@ int leituraArquivo(char * file, int memsize, char* output, int largura){
 	inicializaVetorForwarding(); //inicializa o vetor que será utilizado para simular a falta da retroalimentação do scoreboarding
 	fclose(arquivo); // Fecha o arquivo de entrada
     printMemoria();
-	if(memsize<101){
+	if(memsize<403){
 		printf("\nERRO: Não há espaço na memória para todas as instruções do programa.\n");
 		return 0;
 	}
-	// Imprime os valores lidos
-	printf("\n\nUFs - add: %d, mul: %d, int: %d\n\n", qtdeAdd, qtdeMul, qtdeInt);
-	printf("Ciclos de clock necessarios\npara completar a execucao:\nadd: %d, mul: %d, lw: %d\n", addCiclos, mulCiclos, lwCiclos);
-    printf("div: %d, and: %d, addi: %d\nsubi: %d, or: %d, not: %d\n", divCiclos, andCiclos, addiCiclos, subiCiclos, orCiclos, notCiclos);
-    printf("bgt: %d, blt: %d, beq: %d\nbne: %d, j: %d, sw: %d, sub: %d\n", bgtCiclos, bltCiclos, beqCiclos, bneCiclos, jCiclos, swCiclos, subCiclos);
-	//inicializaPipeline();
 	printRegistradores();
-
-	/*if(output!=NULL){
-		printf("SAIDA: %s", output);
-		//printf("Escrevendo os resultados no arquivo %s.txt\n", output);
-		arq_saida = freopen(output,"w", stdout);
-		//stdout=arq_saida;
-	}*/
 	
-return 1;
+	return 1;
 }	
