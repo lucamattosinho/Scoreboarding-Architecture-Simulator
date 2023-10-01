@@ -5,6 +5,8 @@
 #include "tradutor.h"
 #include "processor.h"
 
+
+// Função para devolver uma string do opcode
 char* opcodeString(int opcode) {
     switch (opcode) {
         case 0:
@@ -46,14 +48,56 @@ char* opcodeString(int opcode) {
     }
 }
 
+// Função que devolve o opcode de uma string
+int getCodigoOpcode(const char opcode[4]) {
 
+    if (strcmp(opcode, "add") == 0) {
+        return 0;
+    } else if (strcmp(opcode, "addi") == 0) {
+        return 1;
+    } else if (strcmp(opcode, "sub") == 0) {
+        return 2;
+    } else if (strcmp(opcode, "subi") == 0) {
+        return 3;
+    } else if (strcmp(opcode, "mul") == 0) {
+        return 4;
+    } else if (strcmp(opcode, "div") == 0) {
+        return 5;
+    } else if (strcmp(opcode, "and") == 0) {
+        return 6;
+    } else if (strcmp(opcode, "or") == 0) {
+        return 7;
+    } else if (strcmp(opcode, "not") == 0) {
+        return 8;
+    } else if (strcmp(opcode, "blt") == 0) {
+        return 9;
+    } else if (strcmp(opcode, "bgt") == 0) {
+        return 10;
+    } else if (strcmp(opcode, "beq") == 0) {
+        return 11;
+    } else if (strcmp(opcode, "bne") == 0) {
+        return 12;
+    } else if (strcmp(opcode, "j") == 0) {
+        return 13;
+    } else if (strcmp(opcode, "lw") == 0) {
+        return 14;
+    } else if (strcmp(opcode, "sw") == 0) {
+        return 15;
+    } else if (strcmp(opcode, "exit") == 0) {
+        return 16;
+    } else {
+        return -1;
+    }
+}
+
+// Função que retorna uma string de uma instrução baseando-se
+// no binário que a representa
 char* instrucaoToString(int inst){
-    //int mascara_destino = 0xFC000000; // 11111100000000000000000000000000 em binário
+    
     // Extrai os 6 bits mais significativos (destino)
     int opcode = (inst >> 26) & 0x3F;
-    //char * instrucao;
-    static char result[256]; // Uma string para armazenar o resultado
-    result[0] = '\0'; // Inicializa a string vazia
+    static char result[256];
+    result[0] = '\0';
 
     // Concatena o opcode correspondente
     strcat(result, opcodeString(opcode));
@@ -118,50 +162,9 @@ char* instrucaoToString(int inst){
     return result;
 }
 
-
-
-int getCodigoOpcode(const char opcode[4]) {
-
-    if (strcmp(opcode, "add") == 0) {
-        return 0;
-    } else if (strcmp(opcode, "addi") == 0) {
-        return 1;
-    } else if (strcmp(opcode, "sub") == 0) {
-        return 2;
-    } else if (strcmp(opcode, "subi") == 0) {
-        return 3;
-    } else if (strcmp(opcode, "mul") == 0) {
-        return 4;
-    } else if (strcmp(opcode, "div") == 0) {
-        return 5;
-    } else if (strcmp(opcode, "and") == 0) {
-        return 6;
-    } else if (strcmp(opcode, "or") == 0) {
-        return 7;
-    } else if (strcmp(opcode, "not") == 0) {
-        return 8;
-    } else if (strcmp(opcode, "blt") == 0) {
-        return 9;
-    } else if (strcmp(opcode, "bgt") == 0) {
-        return 10;
-    } else if (strcmp(opcode, "beq") == 0) {
-        return 11;
-    } else if (strcmp(opcode, "bne") == 0) {
-        return 12;
-    } else if (strcmp(opcode, "j") == 0) {
-        return 13;
-    } else if (strcmp(opcode, "lw") == 0) {
-        return 14;
-    } else if (strcmp(opcode, "sw") == 0) {
-        return 15;
-    } else if (strcmp(opcode, "exit") == 0) {
-        return 16;
-    } else {
-        return -1;
-    }
-}
-
-
+// Tradução de string para binário. As instruções
+// do programa a ser lido pelo simulador passarão
+// por essa função para entrar na memória.
 int instrucaoParaBinario(char *buffer){
     char* token;
     int inst=0;
@@ -175,11 +178,8 @@ int instrucaoParaBinario(char *buffer){
             char* arg1,*arg2;
             arg1 = strtok(NULL, "r ,");
             arg2 = strtok(NULL, "r \r\n");
-            //printf("\n%s ", token);
             rd=atoi(arg1);
-            //printf("%s ", arg1);
             rs=atoi(arg2);
-            //printf("%s ", arg2);
             rs = rs << 21;
             inst = inst | rs;
             rd = rd << 11;
@@ -190,13 +190,9 @@ int instrucaoParaBinario(char *buffer){
             arg1 = strtok(NULL, "r ,");
             arg2 = strtok(NULL, "r ,");
             arg3 = strtok(NULL, "r \r\n");
-            //printf("\n%s ", token);
             rd=atoi(arg1);
-            //printf("%s ", arg1);
             rs=atoi(arg2);
-            //printf("%s ", arg2);
             rt=atoi(arg3);
-            //printf("%s ", arg3);
             rs = rs << 21;
             inst = inst | rs;
             rt = rt << 16;
@@ -209,13 +205,9 @@ int instrucaoParaBinario(char *buffer){
             arg1 = strtok(NULL, "r ,");
             arg2 = strtok(NULL, "r ,");
             arg3 = strtok(NULL, ", \r\n");
-            //printf("\n%s ", token);
             rt=atoi(arg1);
-            //printf("%s ", arg1);
             rs=atoi(arg2);
-            //printf("%s ", arg2);
             imm=atoi(arg3);
-            //printf("%s ", arg3);
             rs = rs << 21;
             inst = inst | rs;
             rt = rt << 16;
@@ -234,13 +226,8 @@ int instrucaoParaBinario(char *buffer){
             char* arg1;
             arg1 = strtok(NULL, " \r\n");
             address = atoi(arg1);
-            //printf("\n%s ", token);
-            //printf("%s ", arg1);
             address = address << 0;
             inst = inst | address;
-        }
-        else{
-            //printf("\n%s ", token);
         }
     }
     else{
@@ -249,25 +236,17 @@ int instrucaoParaBinario(char *buffer){
             arg1 = strtok(NULL, "r ,");
             arg2 = strtok(NULL, " (");
             arg3 = strtok(NULL, "r )\r\n");
-            //printf("\n%s ", token);
             rs=atoi(arg3);
-            //printf("%s ", arg3);
             rt=atoi(arg1);
-            //printf("%s ", arg1);
             imm=atoi(arg2);
-            //printf("%s ", arg2);
         }
         else{
             arg1 = strtok(NULL, "r ,");
             arg2 = strtok(NULL, "r ,");
             arg3 = strtok(NULL, ", \r\n");
-            //printf("\n%s ", token);
             rs=atoi(arg1);
-            //printf("%s ", arg1);
             rt=atoi(arg2);
-            //printf("%s ", arg2);
             imm=atoi(arg3);
-            //printf("%s ", arg3);
         }
 
         rs = rs << 21;

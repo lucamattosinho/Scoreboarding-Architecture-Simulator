@@ -15,6 +15,8 @@ typedef struct{
 }statusInstrucoes;
 
 extern statusInstrucoes *statusI;
+
+const char* tipoToString(int tipo);
 void aumentaStatusInstrucoes();
 void printStatusInstrucoes();
 void inicializaStatusInstrucoes();

@@ -55,7 +55,6 @@ void colocaBarramentoResultados(int valor){
    
 }
 
-
 int pegaBarramentoResultados(int resultado){
     for(int i=0; i<largura_escrita; i++){
         if(barramentoResultados[i]==resultado){

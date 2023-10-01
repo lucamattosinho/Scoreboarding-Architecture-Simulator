@@ -16,7 +16,9 @@ int clocki;
 int stalled;
 int qtdeAdd, qtdeInt, qtdeMul;
 
-int getValor(const char *linha) { // Função que separa os valores relacionados às quantidades de UFs e ciclos
+
+// Função que separa os valores relacionados às quantidades de UFs e ciclos
+int getValor(const char *linha) { 
     char *separador = strstr(linha, ":");
     if (separador != NULL) {
         int valor;
@@ -26,6 +28,7 @@ int getValor(const char *linha) { // Função que separa os valores relacionados
     return 0; // Caso não encontre o separador, retorna 0.
 }
 
+// Função que obtém os dados a serem inseridos nos 100 primeiros endereços do programa.
 void getValoresDados(char *linha){
 	int numero;
 	char *ptr = linha;
@@ -47,6 +50,7 @@ void getValoresDados(char *linha){
 
 int leituraArquivo(char * file, int memsize, char* output, int largura){
 	FILE *arquivo;
+	
 	char buffer[256];
 	// Abre o arquivo em modo de leitura
 	arquivo = fopen(file, "r");
@@ -58,19 +62,78 @@ int leituraArquivo(char * file, int memsize, char* output, int largura){
 	if(output){
 		arq_saida = freopen(caminhoCompleto, "w", stdout);
 	}
-    inicializaMemoria(memsize);
-	inicializaBarramentoResultados(largura);
-	if(largura<1 || largura>8){
-		printf("\nSelecione uma largura de escrita entre 1 e 8.");
-		return 0;
-	}
+	enum categoria { NENHUMA, UF, INST, PL, DADOS };
+    enum categoria categoria = NENHUMA;
+	
+
 	if (arquivo == NULL) {
 	    printf("Erro ao abrir o arquivo.\n");
 		return 0;
 	}
-	enum categoria { NENHUMA, UF, INST, PL, DADOS };
-    enum categoria categoria = NENHUMA;
-    
+	//printf("AAAAAAAAAA");
+	while(fgets(buffer, sizeof(buffer), arquivo)){
+		int contadorlinha = 0;
+		if((strcmp(buffer, "\r\n")==0) || (strcmp(buffer, "\n")==0) || (strcmp(buffer, "\0")==0)){
+			continue;
+		}
+		else{
+			while (buffer[contadorlinha] == ' ' || buffer[contadorlinha] == '\t') {
+				contadorlinha++;
+			}
+			if(buffer[contadorlinha] == '#'){ // Indica que a linha é um comentário
+
+			}
+			else{ // Utilizamos flags para indicar do que se trata a linha que será lida
+				if (strcmp(buffer, "UF\n") == 0) { // Verifica se a linha contém a palavra-chave "UF"
+					categoria = UF;
+				}
+				else if (strcmp(buffer, "INST\n") == 0) { // Verifica se a linha contém a palavra-chave "INST"
+					categoria = INST;
+				}
+				else if(strcmp(buffer, ". data\n") == 0 || strcmp(buffer, ".data\n") == 0){ // Verifica se a linha contém ".data"
+					categoria = DADOS;
+				}
+				else if(strcmp(buffer, ". text\n") == 0 || strcmp(buffer, ".text\n") == 0){ // Verifica se a linha contém ".text"
+					categoria = PL;
+				}
+				else if(strcmp(buffer, "*/\n") == 0){
+					categoria = NENHUMA;
+				}  
+				else{
+					if(categoria == PL){ 
+						if((strcmp(buffer, "\r\n")==0) || (strcmp(buffer, "\n")==0) || (strcmp(buffer, "\0")==0)){
+							continue;
+						}
+						else{
+							qtdeInsts++;
+						} 
+					}
+				}
+			}
+		}
+	}
+
+	categoria = NENHUMA;
+
+	// A largura de escrita de resultados pode ser definida entre 1 e 8.
+	if(largura<1 || largura>8){
+		printf("\nSelecione uma largura de escrita entre 1 e 8.");
+		return 0;
+	}
+
+	// O programa só funcionará se a memória suportar o tamanho do programa.
+	if(memsize>=(qtdeInsts*4)+400){
+		inicializaMemoria(memsize);
+	}
+	else{
+		printf("\nA memória precisa ser grande o suficiente para suportar o programa de entrada.");
+		printf("\nPara suportar este programa, o tamanho mínimo para a memória é de %d", (qtdeInsts*4)+400);
+		return 0;
+	}
+
+	inicializaBarramentoResultados(largura);
+	fseek(arquivo, 0, SEEK_SET);
+	
 	while(fgets(buffer, sizeof(buffer), arquivo)){
 		int contadorlinha = 0;
 		if((strcmp(buffer, "\r\n")==0) || (strcmp(buffer, "\n")==0) || (strcmp(buffer, "\0")==0)){
@@ -240,7 +303,6 @@ int leituraArquivo(char * file, int memsize, char* output, int largura){
 							else{
 								inst = instrucaoParaBinario(buffer);
 								insereMemoria(inst);
-								qtdeInsts++;
 							} 
 						}
 					}
@@ -253,11 +315,6 @@ int leituraArquivo(char * file, int memsize, char* output, int largura){
 	inicializaVetorForwarding(); //inicializa o vetor que será utilizado para simular a falta da retroalimentação do scoreboarding
 	fclose(arquivo); // Fecha o arquivo de entrada
     printMemoria();
-	if(memsize<403){
-		printf("\nERRO: Não há espaço na memória para todas as instruções do programa.\n");
-		return 0;
-	}
-	printRegistradores();
-	
+
 	return 1;
 }	

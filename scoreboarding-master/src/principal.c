@@ -8,8 +8,8 @@
 
 int main(int argc, char *argv[]){
   if((strcmp(argv[1], "-p") == 0) && (strcmp(argv[3], "-m") == 0)){
-    if(atoi(argv[4])<403){
-      printf("\nErro ao carregar memória: deve ser maior que 100\n");
+    if(atoi(argv[4])<399){
+      printf("\nErro ao carregar memória: deve ser maior que 399.\n");
       return 0;
     }
     char* output = NULL;
@@ -37,17 +37,17 @@ int main(int argc, char *argv[]){
       }
     }
     if(!leituraArquivo(argv[2],atoi(argv[4]),output, largura)){
-      printf("Modo correto de uso: './programa -p <arquivo_entrada.sb> -m <tamanho_memoria> [-o <arquivo_saida>] [-l <largura_escrita>]'\n");
+      printf("\nModo correto de uso: './programa -p <arquivo_entrada.sb> -m <tamanho_memoria> [-o <arquivo_saida>] [-l <largura_escrita>]'\n");
       return 0;
     }
     pc = 400;
     clocki = 1;
     stalled = 0;
     int cont;
-    printf("\n----------------------INÍCIO DA SIMULAÇÃO----------------------\n");
+    printf("\n----------------------------------------------------INÍCIO DA SIMULAÇÃO----------------------------------------------------\n");
     if(arq_saida){
       do{
-        printf("\n------------------CICLO %d------------------\nPressione enter para continuar\n", clocki);
+        printf("\n----------------------------------------------------------CICLO %d----------------------------------------------------------\n\n", clocki);
         escritaResultados();
         execucao();
         leituraDeOperandos();
@@ -58,12 +58,11 @@ int main(int argc, char *argv[]){
         printStatusInstrucoes();
         statusUFs();
         printStatusReg();
-        printRegistradores();
-      }while((instrucoesEmitidas == 0 || instrucoesEmitidas!=instrucoesEfetivadas) || cont);
+      }while(instrucoesEmitidas!=instrucoesEfetivadas || cont);
     }
     else{
       do{
-        printf("\n------------------CICLO %d------------------\nPressione enter para continuar\n", clocki);
+        printf("\n----------------------------------------------------------CICLO %d----------------------------------------------------------\n\n", clocki);
         escritaResultados();
         execucao();
         leituraDeOperandos();
@@ -74,10 +73,10 @@ int main(int argc, char *argv[]){
         printStatusInstrucoes();
         statusUFs();
         printStatusReg();
-        printRegistradores();
+        printf("\nPressione enter para continuar.");
         while (getchar() != '\n') {
         }
-      }while((instrucoesEmitidas == 0 || instrucoesEmitidas!=instrucoesEfetivadas) || cont);
+      }while(instrucoesEmitidas!=instrucoesEfetivadas || cont);
     }
     printf("\n\n---------------------FIM DO PROGRAMA---------------------\n");
     printRegistradores();

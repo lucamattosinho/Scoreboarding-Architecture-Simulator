@@ -23,9 +23,9 @@ sw:2
 */
 . data
 #tamanho do array
-7
+5
 #array:
-3 2 -1 11 7 -32 120
+-1 2 31 333 -32
 #resultado começa no endereço 1
 . text
 #mul r5, r31, r31
@@ -57,7 +57,7 @@ blt r4, r1, -40
 subi r1, r1, 4
 addi r2, r2, 4
 
-#se r3==0 loop externo (flag de troca)
+#se r3==0 (flag de troca) loop externo
 beq r3, r0, -64
 exit
 

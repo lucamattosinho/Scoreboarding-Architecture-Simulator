@@ -8,13 +8,8 @@
 conjuntoUFS unidadesFuncionais;
 UF *vetorResultados[32];
 
-/* void printStatusReg(){
-    for(int i=0; i<32; i++){
-        printf()
-    }
-} */
-
-const char* tipoToString(tipoUF tipo) {
+// Retorna a string de acordo com o tipo da unidade funcional
+const char* tipoToString(int tipo) {
     switch (tipo) {
         case ADD:
             return "ADD";
@@ -30,31 +25,8 @@ const char* tipoToString(tipoUF tipo) {
             break;
     }
 }
-/* 
-void printConjuntoUFS(conjuntoUFS* conjunto) {
-    printf("UF Add:\n");
-    printUF(conjunto->ufAdd);
-    
-    printf("UF Mul:\n");
-    printUF(conjunto->ufMul);
-    
-    printf("UF Int:\n");
-    printUF(conjunto->ufInt);
-} */
 
-
-void printUFS(UF* ufs, int qtde){
-
-    printf("UF  Tipo  Busy   Operacao   Fi      Fj      Fk       Qj       Qk     Rj     Rk\n");
-    for (int i = 0; i < qtde; i++) {
-        printf("%-4d %-4s %-7s %-7u %-7u %-7u %-7u %-6p %-6p %-6s %-7s\n",
-               i, tipoToString(ufs[i].tipo), ufs[i].busy ? "true" : "false", ufs[i].operacao,
-               ufs[i].fi, ufs[i].fj, ufs[i].fk, ufs[i].qj, ufs[i].qk,
-               ufs[i].rj ? "true" : "false", ufs[i].rk ? "true" : "false");
-    }
-}
-
-
+// Inicialização das unidades funcionais
 void inicializaUFs(int add, int mul, int inter){
     unidadesFuncionais.ufAdd = (UF*)malloc(sizeof(UF)*add);
     unidadesFuncionais.ufInt = (UF*)malloc(sizeof(UF)*inter);
@@ -64,32 +36,21 @@ void inicializaUFs(int add, int mul, int inter){
     unidadesFuncionais.qtdeMUL = mul;
     
     for(int i=0; i<unidadesFuncionais.qtdeADD; i++){
-        /* unidadesFuncionais.ufAdd[i].qtde_ciclos = -1;
-        unidadesFuncionais.ufAdd[i].fi = -1;
-        unidadesFuncionais.ufAdd[i].fj = -1;
-        unidadesFuncionais.ufAdd[i].fk = -1; */
         unidadesFuncionais.ufAdd[i].tipo=0;
     }
     for(int i=0; i<unidadesFuncionais.qtdeMUL; i++){
-        /* unidadesFuncionais.ufMul[i].qtde_ciclos = -1;
-        unidadesFuncionais.ufMul[i].fi = -1;
-        unidadesFuncionais.ufMul[i].fj = -1;
-        unidadesFuncionais.ufMul[i].fk = -1; */
         unidadesFuncionais.ufMul[i].tipo=1;
     }
     for(int i=0; i<unidadesFuncionais.qtdeINT; i++){
-        /* unidadesFuncionais.ufInt[i].qtde_ciclos = -1;
-        unidadesFuncionais.ufInt[i].fi = -1;
-        unidadesFuncionais.ufInt[i].fj = -1;
-        unidadesFuncionais.ufInt[i].fk = -1; */
         unidadesFuncionais.ufInt[i].tipo=2;
     } 
 }
 
+// Busca qual unidade funcional está disponível para a emissão.
+// Caso nenhuma unidade esteja disponível, retorna -1.
 int getUFdisponivel(int tipo){
     if(tipo==0){
         for(int i=0; i<unidadesFuncionais.qtdeADD; i++){
-            //printf("\nBUSY: %d ", unidadesFuncionais.ufAdd[i].busy);
             if(unidadesFuncionais.ufAdd[i].busy==0){
                 return i;
             }
@@ -113,6 +74,8 @@ int getUFdisponivel(int tipo){
     return -1;
 }
 
+// Retorna o tipo da unidade funcional de uma instrução
+// de acordo com seu binário.
 int getTipoUF(int instrucao){
     int tp=0;
     if(getOpcode(instrucao)<4){
@@ -126,18 +89,3 @@ int getTipoUF(int instrucao){
     }
     return tp;
 } 
-
-void resetaUF(UF* uf){
-    vetorResultados[uf->fi]=NULL;
-    uf->instrucao=0;
-    uf->busy = 0;
-    uf->fi = 0;
-    uf->fj = 0;
-    uf->fk = 0;
-    uf->operacao = -1;
-    uf->qj = NULL;
-    uf->qk = NULL;
-    uf->rj = (uf->qj == NULL);
-    uf->rk = (uf->qk == NULL);
-    uf->qtde_ciclos = 0;
-}
