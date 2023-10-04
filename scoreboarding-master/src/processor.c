@@ -37,19 +37,19 @@ void inicializaVetorForwarding(){
 // o programa.
 void aumentaVetorForwarding(){
 
-    int *newVetorForwarding = (int*)malloc(sizeof(int)*(instsBuscadas+1));
+    int *newVetorForwarding = (int*)malloc(sizeof(int)*(instsBuscadas));
 
     if (newVetorForwarding == NULL) {   
         printf("Erro na alocação de memória.\n");
         free(newVetorForwarding); // Liberar memória alocada para o vetor original
     }
-    for (int i = 0; i < instsBuscadas-1; i++) {
+    for (int i = 0; i < instsBuscadas; i++) {
         newVetorForwarding[i] = vetorForwarding[i];
     }
     
     free(vetorForwarding);
     vetorForwarding = (int*)malloc(sizeof(int)*(instsBuscadas+1));
-    for (int i = 0; i < instsBuscadas-1; i++) {
+    for (int i = 0; i < instsBuscadas; i++) {
         vetorForwarding[i] = newVetorForwarding[i];
     }
     
@@ -557,7 +557,7 @@ void emiteInstrucao(){
                     unidadesFuncionais.ufAdd[disponivel].qtde_ciclos = -1;
 
                     vetorResultados[destino] = &unidadesFuncionais.ufAdd[disponivel];
-                    printf("VETOR RESULTADOS DE %d: %p", destino, vetorResultados[destino]);
+                    
 
                     //Não teve RAW e pode ler nesse ciclo
                     statusI[indice_instrucao].emissao = clocki;
@@ -637,7 +637,6 @@ void emiteInstrucao(){
                     }
                     else{
                         if(destino<0 || destino>31){
-                            printf("?????????");
                             vetorResultados[destino] = NULL;
                         }
                         if(vetorResultados[getFonte1(ir)]==0){
@@ -677,7 +676,6 @@ void emiteInstrucao(){
                 unidadesFuncionais.ufInt[disponivel].fj = getFonte1(ir);
                 unidadesFuncionais.ufInt[disponivel].fk = getFonte2(ir);
                 unidadesFuncionais.ufInt[disponivel].operacao = getOpcode(ir);
-                printf("VETOR RESULTADOS DE %d: %p", unidadesFuncionais.ufInt[disponivel].fj, vetorResultados[getFonte1(ir)]);
                 if(vetorResultados[getFonte1(ir)]==0){
                     unidadesFuncionais.ufInt[disponivel].qj = NULL;
                 }
@@ -708,7 +706,7 @@ void leituraDeOperandos(){
     for(int i=0; i<unidadesFuncionais.qtdeADD; i++){
         if(unidadesFuncionais.ufAdd[i].rj == 1 && unidadesFuncionais.ufAdd[i].rk == 1){
             int indice_instrucao = getIndiceInstrucaoLO(unidadesFuncionais.ufAdd[i].instrucao);
-            if(vetorForwarding[indice_instrucao]==0){
+            if(vetorForwarding[indice_instrucao]==0 || vetorForwarding[indice_instrucao]>1){
                 //Não teve RAW e pode ler nesse ciclo
                 unidadesFuncionais.ufAdd[i].rj = 0;
                 unidadesFuncionais.ufAdd[i].rk = 0;
@@ -731,7 +729,7 @@ void leituraDeOperandos(){
     for(int i=0; i<unidadesFuncionais.qtdeMUL; i++){
         if(unidadesFuncionais.ufMul[i].rj == 1 && unidadesFuncionais.ufMul[i].rk == 1){
             int indice_instrucao = getIndiceInstrucaoLO(unidadesFuncionais.ufMul[i].instrucao);
-            if(vetorForwarding[indice_instrucao]==0){
+            if(vetorForwarding[indice_instrucao]==0 || vetorForwarding[indice_instrucao]>1){
                 //Não teve RAW e pode ler nesse ciclo
                 unidadesFuncionais.ufMul[i].rj = 0;
                 unidadesFuncionais.ufMul[i].rk = 0;
@@ -750,7 +748,7 @@ void leituraDeOperandos(){
     for(int i=0; i<unidadesFuncionais.qtdeINT; i++){
         if(unidadesFuncionais.ufInt[i].rj == 1 && unidadesFuncionais.ufInt[i].rk == 1){
             int indice_instrucao = getIndiceInstrucaoLO(unidadesFuncionais.ufInt[i].instrucao);
-            if(vetorForwarding[indice_instrucao]==0){
+            if(vetorForwarding[indice_instrucao]==0 || vetorForwarding[indice_instrucao]>1){
                 //Não teve RAW e pode ler nesse ciclo
                 unidadesFuncionais.ufInt[i].rj = 0;
                 unidadesFuncionais.ufInt[i].rk = 0;
@@ -808,7 +806,6 @@ void execucao(){
             printBarramentoResultados();
         }
     }
-    printf("VETOR RESULTADOS 4: %p", vetorResultados[4]);
 
 }
 
@@ -830,7 +827,7 @@ void escritaResultados(){
                 }
             }
             for(int j=0; j<unidadesFuncionais.qtdeINT; j++){
-                if((unidadesFuncionais.ufAdd[i].fi!=unidadesFuncionais.ufInt[j].fj || unidadesFuncionais.ufInt[j].rj==0)
+                if(((unidadesFuncionais.ufAdd[i].fi!=unidadesFuncionais.ufInt[j].fj || unidadesFuncionais.ufInt[j].operacao==14) || unidadesFuncionais.ufInt[j].rj==0)
                 && (unidadesFuncionais.ufAdd[i].fi!=unidadesFuncionais.ufInt[j].fk || unidadesFuncionais.ufInt[j].rk==0)){
                 }
                 else{
@@ -839,16 +836,16 @@ void escritaResultados(){
             }
             for(int j=0; j<unidadesFuncionais.qtdeADD; j++){
                 if((unidadesFuncionais.ufAdd[i].fi!=unidadesFuncionais.ufAdd[j].fj || unidadesFuncionais.ufAdd[j].rj==0)
-                && (unidadesFuncionais.ufAdd[i].fi!=unidadesFuncionais.ufAdd[j].fk || unidadesFuncionais.ufAdd[j].rk==0)){
+                && ((unidadesFuncionais.ufAdd[i].fi!=unidadesFuncionais.ufAdd[j].fk || unidadesFuncionais.ufAdd[j].operacao==1 || unidadesFuncionais.ufAdd[j].operacao==3) || unidadesFuncionais.ufAdd[j].rk==0)){
                 }
                 else{
                     checkAddC = 0;
                 }
             }
 
-            linhaBarramento = pegaBarramentoResultados(executaInstrucao(unidadesFuncionais.ufAdd[i].fi, unidadesFuncionais.ufAdd[i].fj, unidadesFuncionais.ufAdd[i].fk, unidadesFuncionais.ufAdd[i].operacao));
+            linhaBarramento = pegaBarramentoResultados(executaInstrucao(unidadesFuncionais.ufAdd[i].fi, unidadesFuncionais.ufAdd[i].valorfj, unidadesFuncionais.ufAdd[i].valorfk, unidadesFuncionais.ufAdd[i].operacao));
 
-            if(checkAddA && checkAddB && checkAddC && unidadesFuncionais.ufAdd[i].qtde_ciclos == 0 && unidadesFuncionais.ufAdd[i].fi != 0){
+            if(checkAddA && checkAddB && checkAddC && unidadesFuncionais.ufAdd[i].qtde_ciclos == 0 && unidadesFuncionais.ufAdd[i].fi != 0 && linhaBarramento!=-1){
                 for(int j=0; j<unidadesFuncionais.qtdeADD; j++){
                     if((unidadesFuncionais.ufAdd[i].fi!=unidadesFuncionais.ufAdd[j].fj || unidadesFuncionais.ufAdd[j].rj==0)
                     && (unidadesFuncionais.ufAdd[i].fi!=unidadesFuncionais.ufAdd[j].fk || unidadesFuncionais.ufAdd[j].rk==0)){
@@ -901,25 +898,11 @@ void escritaResultados(){
                         }
                     }
                 }
-                linhaBarramento = pegaBarramentoResultados(executaInstrucao(unidadesFuncionais.ufAdd[i].fi, unidadesFuncionais.ufAdd[i].valorfj, unidadesFuncionais.ufAdd[i].valorfk, unidadesFuncionais.ufAdd[i].operacao));
-                if(linhaBarramento!=-1){
-                    vetorResultados[unidadesFuncionais.ufAdd[i].fi] = 0;
-                    escreveNoDestino(barramentoResultados[linhaBarramento]);
-                    statusI[getIndiceInstrucaoER(unidadesFuncionais.ufAdd[i].instrucao)].escrita=clocki;
-                    unidadesFuncionais.ufAdd[i].instrucao=0;
-                    unidadesFuncionais.ufAdd[i].busy = 0;
-                    unidadesFuncionais.ufAdd[i].fi = 0;
-                    unidadesFuncionais.ufAdd[i].fj = 0;
-                    unidadesFuncionais.ufAdd[i].fk = 0;
-                    unidadesFuncionais.ufAdd[i].valorfj = 0;
-                    unidadesFuncionais.ufAdd[i].valorfk = 0;
-                    unidadesFuncionais.ufAdd[i].operacao = 0;
-                    unidadesFuncionais.ufAdd[i].qj = NULL;
-                    unidadesFuncionais.ufAdd[i].qk = NULL;
-                    unidadesFuncionais.ufAdd[i].rj = 0;
-                    unidadesFuncionais.ufAdd[i].rk = 0;
-                    instrucoesEfetivadas++;
-                }
+                vetorResultados[unidadesFuncionais.ufAdd[i].fi] = 0;
+                escreveNoDestino(barramentoResultados[linhaBarramento]);
+                statusI[getIndiceInstrucaoER(unidadesFuncionais.ufAdd[i].instrucao)].escrita=clocki;
+                resetaUF(&unidadesFuncionais.ufAdd[i]);
+                instrucoesEfetivadas++;
             }
         }
         checkAddA = 1;
@@ -930,7 +913,7 @@ void escritaResultados(){
         if(unidadesFuncionais.ufMul[i].qtde_ciclos == 0){
             for(int j=0; j<unidadesFuncionais.qtdeADD; j++){
                 if((unidadesFuncionais.ufMul[i].fi!=unidadesFuncionais.ufAdd[j].fj || unidadesFuncionais.ufAdd[j].rj==0)
-                && (unidadesFuncionais.ufMul[i].fi!=unidadesFuncionais.ufAdd[j].fk || unidadesFuncionais.ufAdd[j].rk==0)){
+                && ((unidadesFuncionais.ufMul[i].fi!=unidadesFuncionais.ufAdd[j].fk || unidadesFuncionais.ufAdd[j].operacao==1 || unidadesFuncionais.ufAdd[j].operacao==3) || unidadesFuncionais.ufAdd[j].rk==0)){
                 }
                 else{
                     checkMulA = 0;
@@ -957,7 +940,7 @@ void escritaResultados(){
         linhaBarramento = pegaBarramentoResultados(executaInstrucao(unidadesFuncionais.ufMul[i].fi, unidadesFuncionais.ufMul[i].valorfj, unidadesFuncionais.ufMul[i].valorfk, unidadesFuncionais.ufMul[i].operacao));
 
         if(checkMulA && checkMulB && checkMulC && unidadesFuncionais.ufMul[i].qtde_ciclos == 0 &&
-        (unidadesFuncionais.ufMul[i].fi != 0)){
+        (unidadesFuncionais.ufMul[i].fi != 0) && linhaBarramento!=-1){
             for(int j=0; j<unidadesFuncionais.qtdeMUL; j++){
                 if((unidadesFuncionais.ufMul[i].fi!=unidadesFuncionais.ufMul[j].fj || unidadesFuncionais.ufMul[j].rj==0)
                 && (unidadesFuncionais.ufMul[i].fi!=unidadesFuncionais.ufMul[j].fk || unidadesFuncionais.ufMul[j].rk==0)){
@@ -1010,25 +993,11 @@ void escritaResultados(){
                     }
                 }
             }
-            linhaBarramento = pegaBarramentoResultados(executaInstrucao(unidadesFuncionais.ufMul[i].fi, unidadesFuncionais.ufMul[i].valorfj, unidadesFuncionais.ufMul[i].valorfk, unidadesFuncionais.ufMul[i].operacao));
-            if(linhaBarramento!=-1){
-                vetorResultados[unidadesFuncionais.ufMul[i].fi] = 0;
-                escreveNoDestino(barramentoResultados[linhaBarramento]);
-                statusI[getIndiceInstrucaoER(unidadesFuncionais.ufMul[i].instrucao)].escrita=clocki;
-                unidadesFuncionais.ufMul[i].instrucao=0;
-                unidadesFuncionais.ufMul[i].busy = 0;
-                unidadesFuncionais.ufMul[i].fi = 0;
-                unidadesFuncionais.ufMul[i].fj = 0;
-                unidadesFuncionais.ufMul[i].fk = 0;
-                unidadesFuncionais.ufMul[i].valorfj = 0;
-                unidadesFuncionais.ufMul[i].valorfk = 0;
-                unidadesFuncionais.ufMul[i].operacao = 0;
-                unidadesFuncionais.ufMul[i].qj = NULL;
-                unidadesFuncionais.ufMul[i].qk = NULL;
-                unidadesFuncionais.ufMul[i].rj = 0;
-                unidadesFuncionais.ufMul[i].rk = 0;
-                instrucoesEfetivadas++;
-            }
+            vetorResultados[unidadesFuncionais.ufMul[i].fi] = 0;
+            escreveNoDestino(barramentoResultados[linhaBarramento]);
+            statusI[getIndiceInstrucaoER(unidadesFuncionais.ufMul[i].instrucao)].escrita=clocki;
+            resetaUF(&unidadesFuncionais.ufMul[i]);
+            instrucoesEfetivadas++;
         }
         checkMulA = 1;
         checkMulB = 1;
@@ -1036,10 +1005,10 @@ void escritaResultados(){
     }
     for(int i=0; i<unidadesFuncionais.qtdeINT; i++){
         if(unidadesFuncionais.ufInt[i].qtde_ciclos==0){
-            if(getOpcode(unidadesFuncionais.ufInt[i].instrucao)<9 || getOpcode(unidadesFuncionais.ufInt[i].instrucao)>13){
+            if((getOpcode(unidadesFuncionais.ufInt[i].instrucao)<9 || getOpcode(unidadesFuncionais.ufInt[i].instrucao)>13) && unidadesFuncionais.ufInt[i].operacao!=15){
                 for(int j=0; j<unidadesFuncionais.qtdeADD; j++){
                     if(((unidadesFuncionais.ufInt[i].fi!=unidadesFuncionais.ufAdd[j].fj || unidadesFuncionais.ufAdd[j].rj==0)
-                    && (unidadesFuncionais.ufInt[i].fi!=unidadesFuncionais.ufAdd[j].fk || unidadesFuncionais.ufAdd[j].rk==0))
+                    && ((unidadesFuncionais.ufInt[i].fi!=unidadesFuncionais.ufAdd[j].fk || unidadesFuncionais.ufAdd[j].operacao==1 || unidadesFuncionais.ufAdd[j].operacao==3) || unidadesFuncionais.ufAdd[j].rk==0))
                     || unidadesFuncionais.ufInt[i].operacao==15){
                     }
                     else{
@@ -1047,16 +1016,18 @@ void escritaResultados(){
                     }
                 }
                 for(int j=0; j<unidadesFuncionais.qtdeMUL; j++){
-                    if((unidadesFuncionais.ufInt[i].fi!=unidadesFuncionais.ufMul[j].fj || unidadesFuncionais.ufMul[j].rj==0)
-                    && (unidadesFuncionais.ufInt[i].fi!=unidadesFuncionais.ufMul[j].fk || unidadesFuncionais.ufMul[j].rk==0)){
+                    if(((unidadesFuncionais.ufInt[i].fi!=unidadesFuncionais.ufMul[j].fj || unidadesFuncionais.ufMul[j].rj==0)
+                    && (unidadesFuncionais.ufInt[i].fi!=unidadesFuncionais.ufMul[j].fk || unidadesFuncionais.ufMul[j].rk==0))
+                    || unidadesFuncionais.ufInt[i].operacao==15){
                     }
                     else{
                         checkIntB = 0;
                     }
                 }
                 for(int j=0; j<unidadesFuncionais.qtdeINT; j++){
-                    if((unidadesFuncionais.ufInt[i].fi!=unidadesFuncionais.ufInt[j].fj || unidadesFuncionais.ufInt[j].rj==0)
-                    && (unidadesFuncionais.ufInt[i].fi!=unidadesFuncionais.ufInt[j].fk || unidadesFuncionais.ufInt[j].rk==0)){
+                    if(((unidadesFuncionais.ufInt[i].fi!=unidadesFuncionais.ufInt[j].fj || unidadesFuncionais.ufInt[j].rj==0)
+                    && (unidadesFuncionais.ufInt[i].fi!=unidadesFuncionais.ufInt[j].fk || unidadesFuncionais.ufInt[j].rk==0))
+                    || unidadesFuncionais.ufInt[i].operacao==15){
                     }
                     else{
                         checkIntC = 0;
@@ -1064,9 +1035,10 @@ void escritaResultados(){
                 }
             }
         }
+        linhaBarramento = pegaBarramentoResultados(executaInstrucao(unidadesFuncionais.ufInt[i].fi, unidadesFuncionais.ufInt[i].valorfj, unidadesFuncionais.ufInt[i].valorfk, unidadesFuncionais.ufInt[i].operacao));
 
-        if(checkIntA && checkIntB && checkIntC && unidadesFuncionais.ufInt[i].qtde_ciclos == 0 && (unidadesFuncionais.ufInt[i].fi != 0
-        || getOpcode(unidadesFuncionais.ufInt[i].instrucao)==15 || (getOpcode(unidadesFuncionais.ufInt[i].instrucao)<=12 && getOpcode(unidadesFuncionais.ufInt[i].instrucao)>=9))){
+        if(checkIntA && checkIntB && checkIntC && unidadesFuncionais.ufInt[i].qtde_ciclos == 0 && linhaBarramento!=-1 && (unidadesFuncionais.ufInt[i].fi != 0
+        || unidadesFuncionais.ufInt[i].operacao==15 || (unidadesFuncionais.ufInt[i].operacao<=12 && unidadesFuncionais.ufInt[i].operacao>=9))){
             for(int j=0; j<unidadesFuncionais.qtdeINT; j++){
                 if((unidadesFuncionais.ufInt[i].fi!=unidadesFuncionais.ufInt[j].fj || unidadesFuncionais.ufInt[j].rj==0)
                     && (unidadesFuncionais.ufInt[i].fi!=unidadesFuncionais.ufInt[j].fk || unidadesFuncionais.ufInt[j].rk==0)){
@@ -1124,36 +1096,22 @@ void escritaResultados(){
                     }          
                 }
             }
-            linhaBarramento = pegaBarramentoResultados(executaInstrucao(unidadesFuncionais.ufInt[i].fi, unidadesFuncionais.ufInt[i].valorfj, unidadesFuncionais.ufInt[i].valorfk, unidadesFuncionais.ufInt[i].operacao));
-            if(linhaBarramento!=-1){
-                if((unidadesFuncionais.ufInt[i].operacao<9 || unidadesFuncionais.ufInt[i].operacao>13) && unidadesFuncionais.ufInt[i].operacao!=15){
-                    vetorResultados[unidadesFuncionais.ufInt[i].fi] = NULL;
-                }
-                else{
-                    if(unidadesFuncionais.ufInt[i].fi!=abs(unidadesFuncionais.ufInt[i].fi))
-                        qtdeloops++;
-                }
-                escreveNoDestino(barramentoResultados[linhaBarramento]);
-                statusI[getIndiceInstrucaoER(unidadesFuncionais.ufInt[i].instrucao)].escrita=clocki;
-                unidadesFuncionais.ufInt[i].instrucao=0;
-                unidadesFuncionais.ufInt[i].busy = 0;
-                unidadesFuncionais.ufInt[i].fi = 0;
-                unidadesFuncionais.ufInt[i].fj = 0;
-                unidadesFuncionais.ufInt[i].fk = 0;
-                unidadesFuncionais.ufInt[i].valorfj = 0;
-                unidadesFuncionais.ufInt[i].valorfk = 0;
-                unidadesFuncionais.ufInt[i].operacao = 0;
-                unidadesFuncionais.ufInt[i].qj = NULL;
-                unidadesFuncionais.ufInt[i].qk = NULL;
-                unidadesFuncionais.ufInt[i].rj = 0;
-                unidadesFuncionais.ufInt[i].rk = 0;
-                instrucoesEfetivadas++;
+            
+            if((unidadesFuncionais.ufInt[i].operacao<9 || unidadesFuncionais.ufInt[i].operacao>13) && unidadesFuncionais.ufInt[i].operacao!=15){
+                vetorResultados[unidadesFuncionais.ufInt[i].fi] = NULL;
             }
+            else{
+                if(unidadesFuncionais.ufInt[i].fi!=abs(unidadesFuncionais.ufInt[i].fi))
+                    qtdeloops++;
+            }
+            escreveNoDestino(barramentoResultados[linhaBarramento]);
+            statusI[getIndiceInstrucaoER(unidadesFuncionais.ufInt[i].instrucao)].escrita=clocki;
+            resetaUF(&unidadesFuncionais.ufInt[i]);
+            instrucoesEfetivadas++;
         }
         checkIntA = 1;
         checkIntB = 1;
         checkIntC = 1;
     }
-    printf("VETOR RESULTADOS 4: %p", vetorResultados[4]);
     limpaBarramentoResultados();
 }

@@ -23,13 +23,11 @@ sw:2
 */
 . data
 #tamanho do array
-5
+3
 #array:
--1 2 31 333 -32
+-1 333 -32
 #resultado começa no endereço 1
 . text
-#mul r5, r31, r31
-#addi r31, r31, 1
 #carrega o tamanho do array
 lw r1, 0(r0)
 addi r30, r30, 4

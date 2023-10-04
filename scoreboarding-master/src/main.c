@@ -70,7 +70,7 @@ int leituraArquivo(char * file, int memsize, char* output, int largura){
 	    printf("Erro ao abrir o arquivo.\n");
 		return 0;
 	}
-	//printf("AAAAAAAAAA");
+	
 	while(fgets(buffer, sizeof(buffer), arquivo)){
 		int contadorlinha = 0;
 		if((strcmp(buffer, "\r\n")==0) || (strcmp(buffer, "\n")==0) || (strcmp(buffer, "\0")==0)){

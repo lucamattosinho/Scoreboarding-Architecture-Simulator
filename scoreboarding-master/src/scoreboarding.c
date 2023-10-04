@@ -60,7 +60,7 @@ int getIndiceInstrucao(int instrucao){
 // Obtém o índice de uma instrução na tabela de status das instruções
 // (para o estágio de Leitura de Operandos).
 int getIndiceInstrucaoLO(int instrucao){
-    int res;
+    int res=0;
     for (int i=0; i<instsBuscadas; i++){
         if(statusI[i].instrucao==instrucao && statusI[i].emissao!=0){// && statusI[i].escrita==0){
             res = i;

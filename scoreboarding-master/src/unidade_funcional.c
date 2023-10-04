@@ -88,4 +88,19 @@ int getTipoUF(int instrucao){
         tp = 2;
     }
     return tp;
-} 
+}
+
+void resetaUF(UF* uf){
+    uf->instrucao=0;
+    uf->busy = 0;
+    uf->fi = 0;
+    uf->fj = 0;
+    uf->fk = 0;
+    uf->valorfj = 0;
+    uf->valorfk = 0;
+    uf->operacao = 0;
+    uf->qj = NULL;
+    uf->qk = NULL;
+    uf->rj = 0;
+    uf->rk = 0;
+}

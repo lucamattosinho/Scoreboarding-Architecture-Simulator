@@ -23,11 +23,11 @@ sw:2
 */
 .data
 #valor a ser buscado:
-10
+0
 #tamanho do array:
-4
+5
 #array:
--9 10 12 15
+-9 0 10 12 15
 .text
 #r1 armazena o valor a ser buscado, r2 armazena o indice inferior e r3 armazena o indice superior do vetor
 lw r1, 0(r0)	
@@ -70,4 +70,4 @@ add r31, r7, r0
 j 532
 #não achou
 subi r31, r0, 1	
-exit 
+exit

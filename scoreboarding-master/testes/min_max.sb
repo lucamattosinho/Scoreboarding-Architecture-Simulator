@@ -23,9 +23,9 @@ sw:2
 */
 .data
 #tamanho do array:
-3
+9
 #array:
-151 -56 236
+151 -56 236 0 12 -11 23 -450 1000
 .text
 #o valor min será guardado em r4 e o valor max em r5
 lw r1, 0(r0)

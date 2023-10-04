@@ -37,6 +37,7 @@ extern conjuntoUFS unidadesFuncionais;
 void inicializaUFs(int add, int mul, int inteiro);
 int getUFdisponivel(int tipo);
 int getTipoUF(int instrucao);
+void resetaUF(UF* uf);
 
 #endif
 
