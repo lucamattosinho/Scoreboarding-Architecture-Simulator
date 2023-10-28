@@ -5,6 +5,10 @@
 #include <string.h>
 #include "scoreboarding.h"
 
+// Alunos:
+// Luca Mattosinho Teixeira; RA: 124316
+// Paula Fernandes Torres; RA: 123565
+
 
 int main(int argc, char *argv[]){
   if((strcmp(argv[1], "-p") == 0) && (strcmp(argv[3], "-m") == 0)){
