@@ -1,7 +1,7 @@
 # TrabalhoScoreboarding
 
-Implementação de um simulador de um computador que utiliza o algoritmo de Scoreboarding, capaz de interpretar um arquivo de texto com um pseudocódigo semelhante a Assembly MIPS. Não possui previsor de desvios, portanto sempre que há uma instrução de _conditional branch_ um _stall_ é aplicado diretamente no estágio de busca.
+Implementation of a computer simulator that uses the Scoreboarding algorithm, capable of interpreting a text file with a pseudocode similar to Assembly MIPS. It does not have a branch predictor, so whenever there is a _conditional branch_ instruction a _stall_ is applied directly in the fetch stage.
 
-Favor, não copiar.
+Please do not copy.
 
 
